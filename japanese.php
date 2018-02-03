@@ -46,7 +46,7 @@ $_LANG['affiliatesdisabled'] = "We do not currently offer an affiliate system to
 $_LANG['affiliatesearn'] = "獲得";
 $_LANG['affiliatesearningstodate'] = "Total Earnings to Date";
 $_LANG['affiliatesfootertext'] = "When you refer someone to our website with your unique referral ID, a cookie is placed on their computer containing this ID so if they bookmark the site and come back later you will still receive the commission.";
-$_LANG['affiliateshostingpackage'] = "Hosting Package";
+$_LANG['affiliateshostingpackage'] = "ホスティングプラン";
 $_LANG['affiliatesintrotext'] = "Activate your affiliate account today to:";
 $_LANG['affiliateslinktous'] = "Link to Us";
 $_LANG['affiliatesnosignups'] = "You have currently not received any signups";
@@ -71,7 +71,7 @@ $_LANG['bannedbanexpires'] = "ブロック期限";
 $_LANG['bannedbanreason'] = "ブロック原因";
 $_LANG['bannedhasbeenbanned'] = "はブロックされました";
 $_LANG['bannedtitle'] = "IP Banned";
-$_LANG['bannedyourip'] = "Your IP";
+$_LANG['bannedyourip'] = "あなたのIPアドレス";
 $_LANG['cartaddons'] = "オプション";
 $_LANG['cartbrowse'] = "Browse Products &amp; Services";
 $_LANG['cartconfigdomainextras'] = "Configure Domain Extras";
@@ -82,14 +82,14 @@ $_LANG['cartdomainsconfig'] = "ドメイン設定";
 $_LANG['cartdomainsconfigdesc'] = "Below you can configure the domain names in your shopping cart selecting the addon services you would like, providing required information for them and defining the nameservers that they will use.";
 $_LANG['cartdomainshashosting'] = "稼働中";
 $_LANG['cartdomainsnohosting'] = "ホスティングサービスを追加するにはここをクリック";
-$_LANG['carteditproductconfig'] = "Edit Configuration";
+$_LANG['carteditproductconfig'] = "構成を編集";
 $_LANG['cartempty'] = "カートには何も入っていません";
-$_LANG['cartemptyconfirm'] = "Are you sure you want to empty your shopping cart?";
+$_LANG['cartemptyconfirm'] = "本当にカートを空にしますか？";
 $_LANG['cartexistingclientlogin'] = "Existing Client Login";
 $_LANG['cartexistingclientlogindesc'] = "To add this order to your existing account, you will need to login below.";
 $_LANG['cartnameserversdesc'] = "If you want to use custom nameservers then enter them below. By default, new domains will use our nameservers for hosting on our network.";
 $_LANG['cartproductaddons'] = "オプションサービス";
-$_LANG['cartproductaddonschoosepackage'] = "Choose Package";
+$_LANG['cartproductaddonschoosepackage'] = "プラン選択";
 $_LANG['cartproductaddonsnone'] = "No Addons Available for your Products &amp; Services";
 $_LANG['cartproductconfig'] = "Product Configuration";
 $_LANG['cartproductdesc'] = "The product/service you have chosen has the following configuration options for you to choose from.";
@@ -191,7 +191,7 @@ $_LANG['clientareahostingaddonsview'] = "View";
 $_LANG['clientareahostingamount'] = "Amount";
 $_LANG['clientareahostingdomain'] = "Domain";
 $_LANG['clientareahostingnextduedate'] = "Next Due Date";
-$_LANG['clientareahostingpackage'] = "Package";
+$_LANG['clientareahostingpackage'] = "プラン";
 $_LANG['clientareahostingregdate'] = "Registration Date";
 $_LANG['clientarealastname'] = "姓";
 $_LANG['clientarealastupdated'] = "Last Updated";
@@ -232,7 +232,7 @@ $_LANG['clientareastatus'] = "Status";
 $_LANG['clientareasuspended'] = "Suspended";
 $_LANG['clientareaterminated'] = "Terminated";
 $_LANG['clientareaticktoenable'] = "Tick to enable";
-$_LANG['clientareatitle'] = "Client Area";
+$_LANG['clientareatitle'] = "会員ページ";
 $_LANG['clientareaunlimited'] = "Unlimited";
 $_LANG['clientareaupdatebutton'] = "Update";
 $_LANG['clientareaupdateyourdetails'] = "Update Your Details";
@@ -419,7 +419,7 @@ $_LANG['invoicerefnum'] = "Reference Number";
 $_LANG['invoices'] = "My Invoices";
 $_LANG['invoicesamount'] = "Amount";
 $_LANG['invoicesattn'] = "ATTN";
-$_LANG['invoicesbacktoclientarea'] = "&laquo; Back to Client Area";
+$_LANG['invoicesbacktoclientarea'] = "&laquo; 会員ページに戻る";
 $_LANG['invoicesbalance'] = "Balance";
 $_LANG['invoicesbefore'] = "before";
 $_LANG['invoicescancelled'] = "Cancelled";
@@ -551,7 +551,7 @@ $_LANG['orderchangenameservers'] = "Change Nameservers Only";
 $_LANG['orderchangeproduct'] = "Change Product";
 $_LANG['ordercheckout'] = "お支払い";
 $_LANG['orderchooseaddons'] = "オプションサービスを選択";
-$_LANG['orderchooseapackage'] = "Choose a Package";
+$_LANG['orderchooseapackage'] = "プランを選択";
 $_LANG['ordercodenotfound'] = "The promotion code entered does not exist";
 $_LANG['ordercompletebutnotpaid'] = "Attention! Your order has been completed but you have not yet paid for it so it will not be activated.<br />Click on the link below to go to your invoice to make payment.";
 $_LANG['orderconfigpackage'] = "Configurable Options";
@@ -598,7 +598,7 @@ $_LANG['orderfreedomainappliesto'] = "applies to the following extensions only";
 $_LANG['orderfreedomaindescription'] = "on selected payment terms";
 $_LANG['orderfreedomainonly'] = "Free Domain";
 $_LANG['orderfreedomainregistration'] = "Free Domain Registration";
-$_LANG['ordergotoclientarea'] = "Click here to go to your Client Area";
+$_LANG['ordergotoclientarea'] = "会員ページへ移動するにはここをクリック";
 $_LANG['orderinvalidcodeforbillingcycle'] = "This code does not apply to the selected billing cycle";
 $_LANG['orderlogininfo'] = "Login Information";
 $_LANG['orderlogininfopart1'] = "Please enter the password that you wish to use to login to your";
@@ -1161,7 +1161,7 @@ $_LANG['domainmassrenew'] = "ドメイン更新";
 # reCAPTCHA
 
 $_LANG['captchatitle'] = "セキュリティチェック";
-$_LANG['captchaverify'] = "以下に表示されている文字を入力してください";
+$_LANG['captchaverify'] = "以下の枠内に表示されている文字を入力してください";
 $_LANG['captchaverifyincorrect'] = "入力された文字が表示内容と一致していません。お手数ですが、再度お試しください。";
 $_LANG['googleRecaptchaIncorrect'] = "セキュリティ認証操作（CAPTCHA）を行い、再度お試しください。";
 $_LANG['recaptcha-invalid-site-private-key'] = "エラーが発生しました。お手数ですが、サポートへお知らせください。（エラーコード：cap1）";
@@ -1316,7 +1316,7 @@ $_LANG['supportticketsubmitted'] = "Submitted";
 $_LANG['supportticketscontact'] = "Contact";
 $_LANG['supportticketsticketlastupdated'] = "更新日時";
 
-$_LANG['upgradedowngradepackage'] = "Upgrade/Downgrade";
+$_LANG['upgradedowngradepackage'] = "アップグレード／ダウングレード";
 $_LANG['upgradedowngradechooseproduct'] = "Choose Product";
 
 $_LANG['jobtitlereqforcompany'] = "(Required if Organization Name is set)";
@@ -1433,14 +1433,14 @@ $_LANG['feedbackimprove'] = "How may we make your experience better in the futur
 $_LANG['pleaserate2'] = "handled this support request";
 $_LANG['feedbacksupplyrating'] = "Please supply at least a rating for :staffname (comments are optional)";
 
-$_LANG['returnclient'] = "Return to Client Area";
+$_LANG['returnclient'] = "会員ページに戻る";
 
 $_LANG['clientareanavsecurity'] = "Security Settings";
-$_LANG['twofactorauth'] = "Two-Factor Authentication";
-$_LANG['twofaenable'] = "Enable Two-Factor Authentication";
-$_LANG['twofadisable'] = "Disable Two-Factor Authentication";
-$_LANG['twofaenableclickhere'] = "Click here to Enable";
-$_LANG['twofadisableclickhere'] = "Click here to Disable";
+$_LANG['twofactorauth'] = "2要素認証";
+$_LANG['twofaenable'] = "2要素認証を有効化";
+$_LANG['twofadisable'] = "2要素認証を無効化";
+$_LANG['twofaenableclickhere'] = "ここをクリックして有効化";
+$_LANG['twofadisableclickhere'] = "ここをクリックして無効化";
 $_LANG['twofaenforced'] = "For your security, we require that you must enable Two-Factor Authentication before you can continue. This page will guide you through the process of setting it up.";
 $_LANG['twofasetup'] = "Two-Factor Authentication Setup Process";
 $_LANG['twofasetupgetstarted'] = "Get Started";
@@ -1449,8 +1449,8 @@ $_LANG['twofaactivationmultichoice'] = "To continue, please choose your desired 
 $_LANG['twofadisableintro'] = "To disable Two-Factor Authentication please confirm your password in the field below.";
 $_LANG['twofaactivationerror'] = "An error occurred while attempting to activate Two-Factor Authentication for your account. Please try again.";
 $_LANG['twofamoduleerror'] = "An error occurred loading the module. Please try again.";
-$_LANG['twofaactivationcomplete'] = "Two-Factor Authentication Setup is Complete!";
-$_LANG['twofadisableconfirmation'] = "Two-Factor Authentication has now been disabled for your account.";
+$_LANG['twofaactivationcomplete'] = "2要素認証の設定が完了しました。";
+$_LANG['twofadisableconfirmation'] = "2要素認証は解除されました。";
 $_LANG['twofabackupcodeis'] = "Your Backup Code is";
 $_LANG['twofanewbackupcodeis'] = "Your New Backup Code is";
 $_LANG['twofabackupcodelogin'] = "Enter Your Backup Code to Login";
@@ -1460,19 +1460,19 @@ $_LANG['twofa2ndfactorreq'] = "Your second factor is required to complete login.
 $_LANG['twofa2ndfactorincorrect'] = "The second factor you supplied was incorrect. Please try again.";
 $_LANG['twofabackupcodereset'] = "Login via Backup Code Successful<br />Backup Codes are valid once only. It will now be reset.";
 $_LANG['twofacantaccess2ndfactor'] = "Can't Access Your 2nd Factor Device?";
-$_LANG['twofaloginusingbackupcode'] = "Login using Backup Code";
+$_LANG['twofaloginusingbackupcode'] = "バックアップコードを使ってログイン";
 $_LANG['twofageneralerror'] = "An error occurred loading the module. Please try again.";
 
 $_LANG['continue'] = "続ける";
 $_LANG['disable'] = "Disable";
-$_LANG['manage'] = "Manage";
+$_LANG['manage'] = "管理";
 
 # Version 5.3
 $_LANG['quoteacceptancetitle'] = "Quote Acceptance";
 $_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
 $_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
 
-$_LANG['contactform'] = "Contact Form";
+$_LANG['contactform'] = "お問い合わせフォーム";
 
 $_LANG['twoipverificationstep'] = "Verification Step";
 $_LANG['twoipverificationstepmsg'] = "Enter the security code generated by your mobile authenticator app and we'll make sure it's configured correctly before enabling it.";
@@ -1528,7 +1528,7 @@ $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "EU Non-French
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = "Please provide the company \"DUNS Number\", and the \"Birthdate\" of the Owner Contact.";
 $_LANG['enomfrregistration']['Non-EU Warning'] = "Client contact information must be within the EU or else registration will fail.";
 
-$_LANG['confirm'] = "Confirm";
+$_LANG['confirm'] = "確認";
 
 $_LANG['maxmind_checkconfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
 $_LANG['maxmind_addressinvalid'] = "Your address is not recognised. Please check and re-enter.";
@@ -1849,7 +1849,7 @@ $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
 
 # cPanel Module
 
-$_LANG['cPanel']['packageDomain'] = "Package/Domain";
+$_LANG['cPanel']['packageDomain'] = "プラン／ドメイン";
 $_LANG['cPanel']['addonsExtras'] = "Addons & Extras";
 $_LANG['cPanel']['purchaseActivate'] = "Purchase & Activate";
 
@@ -1875,11 +1875,11 @@ $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
 
 $_LANG['cPanel']['createEmailAccount'] = "Quick Create Email Account";
-$_LANG['cPanel']['usernamePlaceholder'] = "Yourname";
-$_LANG['cPanel']['passwordPlaceholder'] = "Desired Password";
+$_LANG['cPanel']['usernamePlaceholder'] = "あなたの名前";
+$_LANG['cPanel']['passwordPlaceholder'] = "パスワード";
 $_LANG['cPanel']['create'] = "作成";
-$_LANG['cPanel']['emailAccountCreateSuccess'] = "Email account created successfully!";
-$_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: ";
+$_LANG['cPanel']['emailAccountCreateSuccess'] = "メールアカウントが作成されました！";
+$_LANG['cPanel']['emailAccountCreateFailed'] = "メールアカウントを作成できませんでした： ";
 
 $_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
@@ -1889,7 +1889,7 @@ $_LANG['cPanel']['billingOverview'] = "Billing Overview";
 
 $_LANG['liveHelp']['chatNow'] = "Chat Now";
 
-$_LANG['quotes'] = "Quotes";
+$_LANG['quotes'] = "お問い合わせ";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
 $_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
@@ -1906,7 +1906,7 @@ $_LANG['billingAddress'] = "請求先住所";
 
 $_LANG['noPasswordResetWhenLoggedIn'] = "You cannot request a password reset when logged in. Please logout to begin.";
 
-$_LANG['unableToLoadShoppingCart'] = "Unable to load your shopping cart. Please contact support.";
+$_LANG['unableToLoadShoppingCart'] = "カートの内容を読み込めませんでした。お手数ですが、サポートへお知らせください。";
 
 $_LANG['showMenu'] = "メニューを表示";
 $_LANG['hideMenu'] = "メニューを閉じる";
@@ -1959,7 +1959,7 @@ $_LANG['orderForm']['haveQuestionsClickHere'] = "ここをクリック";
 $_LANG['orderForm']['use'] = "使用";
 $_LANG['orderForm']['check'] = "取得";
 $_LANG['orderForm']['transfer'] = "移管";
-$_LANG['orderForm']['domainAddedToCart'] = "This domain has been added to your cart.";
+$_LANG['orderForm']['domainAddedToCart'] = "このドメインはカートに追加されました。";
 $_LANG['orderForm']['registerLongerAndSave'] = "Register for longer and save!";
 $_LANG['orderForm']['tryRegisteringInstead'] = "Try registering this domain instead.";
 $_LANG['orderForm']['domainAvailabilityCached'] = "Domain availability results are cached which may lead to recently registered domains being shown as available.";
@@ -2001,8 +2001,8 @@ $_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options F
 
 $_LANG['orderpaymenttermfree'] = "Free";
 
-$_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
-$_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
+$_LANG['cPanel']['usageStatsBwOverLimit'] = "使用可能な通信量を超えました。";
+$_LANG['cPanel']['usageStatsDiskOverLimit'] = "使用可能なディスク容量を超えました。";
 $_LANG['insufficientstockmessage'] = "We are currently low on stock on certain items. The cart quantities have been adjusted accordingly.";
 
 $_LANG['only'] = "Only";
@@ -2018,7 +2018,7 @@ $_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On
 $_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
 $_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
 $_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
-$_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
+$_LANG['sso']['redirectafterlogin'] = "ログイン後にリダイレクトされます";
 
 $_LANG['oauth']['badTwoFactorAuthModule'] = "2要素認証モジュールに不具合が発生しました。お手数ですが、サポートへお知らせください。";
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
@@ -2069,30 +2069,30 @@ $_LANG['markdown']['saving'] = "autosaving";
 
 $_LANG['oauth']['authoriseAppToAccess'] = "Authorise :appName<br />to access your account?";
 $_LANG['oauth']['willBeAbleTo'] = "This application will be able to";
-$_LANG['oauth']['authorise'] = "Authorise";
-$_LANG['oauth']['currentlyLoggedInAs'] = "You are currently logged in as :firstName :lastName";
-$_LANG['oauth']['notYou'] = "Not You?";
+$_LANG['oauth']['authorise'] = "認証";
+$_LANG['oauth']['currentlyLoggedInAs'] = ":lastName :firstName さんとしてログインしています";
+$_LANG['oauth']['notYou'] = "あなたではありませんか？";
 $_LANG['oauth']['returnToApp'] = "Return to :appName";
 $_LANG['oauth']['copyrightFooter'] = "Copyright &copy; :dateYear :companyName All Rights Reserved.";
 $_LANG['oauth']['loginToGrantApp'] = "Login to grant :appName<br />access to your account";
-$_LANG['oauth']['redirectDescriptionOne'] = "Redirecting you back to the application. This may take a few moments.";
-$_LANG['oauth']['redirectDescriptionTwo'] = "If your browser doesn't redirect you, please";
-$_LANG['oauth']['redirectDescriptionThree'] = "click here to continue";
+$_LANG['oauth']['redirectDescriptionOne'] = "元のページにリダイレクト中です。少々時間がかかる場合があります。";
+$_LANG['oauth']['redirectDescriptionTwo'] = "もししばらく待ってもページが移動しない場合は、";
+$_LANG['oauth']['redirectDescriptionThree'] = "ここをクリックしてください";
 $_LANG['downloadLoginRequiredTagline'] = "Please login to access the requested file download";
 
 $_LANG['orderForm']['year'] = "年";
 $_LANG['orderForm']['years'] = "年";
-$_LANG['orderForm']['domainOrKeyword'] = "Enter a domain or keyword";
+$_LANG['orderForm']['domainOrKeyword'] = "ドメインまたはキーワードを入力してください";
 $_LANG['orderForm']['searching'] = "検索中";
 $_LANG['orderForm']['domainIsUnavailable'] = "<strong>:domain</strong> は既に取得されています"; //Strong tag is required here
 $_LANG['orderForm']['add'] = "追加";
-$_LANG['orderForm']['suggestedDomains'] = "Suggested Domains";
+$_LANG['orderForm']['suggestedDomains'] = "おすすめのドメイン";
 $_LANG['orderForm']['generatingSuggestions'] = "Generating suggestions for you";
-$_LANG['orderForm']['addHosting'] = "Add Web Hosting";
+$_LANG['orderForm']['addHosting'] = "同時にレンタルサーバを申し込み";
 $_LANG['orderForm']['chooseFromRange'] = "Choose from a range of web hosting packages";
-$_LANG['orderForm']['packagesForBudget'] = "We have packages designed to fit every budget";
+$_LANG['orderForm']['packagesForBudget'] = "様々なご予算やご要望に合わせたプランをご用意しています";
 $_LANG['orderForm']['exploreNow'] = "Explore packages now";
-$_LANG['orderForm']['transferToUs'] = "Transfer your domain to us";
+$_LANG['orderForm']['transferToUs'] = "お持ちのドメインを移管";
 $_LANG['orderForm']['transferExtend'] = "Transfer now to extend your domain by 1 year!";
 $_LANG['orderForm']['transferDomain'] = "お持ちのドメインを移管";
 $_LANG['orderForm']['extendExclusions'] = "Excludes certain TLDs and recently renewed domains";
@@ -2120,22 +2120,22 @@ $_LANG['orderForm']['domainPriceTransferLabel'] = 'このドメインの移管�
 
 $_LANG['change'] = "変更";
 
-$_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
-$_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
-$_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
-$_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
-$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
-$_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
+$_LANG['filemanagement']['nofileuploaded'] = "ファイルはアップロードされていません。";
+$_LANG['filemanagement']['invalidname'] = "ファイル名に使用可能な文字は、半角アルファベット、半角数字、半角ドット（.）、半角ハイフン（-）、半角アンダースコア（_）です。";
+$_LANG['filemanagement']['couldNotSaveFile'] = "アップロードされたファイルを保存できませんでした。";
+$_LANG['filemanagement']['checkPermissions'] = "アクセス権を確認してください。";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "ディスク容量の空きを確認してください。";
+$_LANG['filemanagement']['fileAlreadyExists'] = "このファイルは既に存在します。";
 $_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
 
-$_LANG['cartSimpleCaptcha'] = "Please enter the code shown below";
+$_LANG['cartSimpleCaptcha'] = "以下の枠内に表示されている文字を入力してください";
 
-$_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
-$_LANG['orderForm']['domainLetterOrNumber'] = "Domains must begin with a letter or a number";
+$_LANG['clientHomePanels']['showingRecent100'] = "最新の100件を表示中";
+$_LANG['orderForm']['domainLetterOrNumber'] = "ドメインの最初の文字はアルファベットか数字で始まる必要があります";
 $_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
 
 $_LANG['clientareatransferredaway'] = "Transferred Away";
-$_LANG['clientareacompleted'] = "Completed";
+$_LANG['clientareacompleted'] = "完了";
 $_LANG['domainContactUs'] = "お問い合わせ";
 
 $_LANG['orderForm']['shortPerYear'] = "/:years年";
@@ -2149,26 +2149,26 @@ $_LANG['pricing']['browseExtByCategory'] = "Browse extensions by category";
 $_LANG['pricing']['register'] = "取得料金";
 $_LANG['pricing']['transfer'] = "移管料金";
 $_LANG['pricing']['renewal'] = "更新料金";
-$_LANG['pricing']['selectExtCategory'] = "Please choose a category from above.";
+$_LANG['pricing']['selectExtCategory'] = "上記からカテゴリを選択してください。";
 
 $_LANG['navStore'] = "ストア";
 $_LANG['navBrowseProductsServices'] = "すべて表示";
 
-$_LANG['navWebsiteSecurity'] = "Website & Security";
-$_LANG['navMarketConnectService']['symantec'] = "SSL Certificates";
-$_LANG['navMarketConnectService']['weebly'] = "Website Builder";
-$_LANG['navMarketConnectService']['spamexperts'] = "E-mail Services";
+$_LANG['navWebsiteSecurity'] = "Webサイト ＆ セキュリティ";
+$_LANG['navMarketConnectService']['symantec'] = "SSL証明書";
+$_LANG['navMarketConnectService']['weebly'] = "Webサイトビルダー";
+$_LANG['navMarketConnectService']['spamexperts'] = "Eメールサービス";
 
-$_LANG['store']['emailServices']['title'] = "E-mail Services";
+$_LANG['store']['emailServices']['title'] = "Eメールサービス";
 $_LANG['store']['ssl']['title'] = "SSL証明書";
 $_LANG['store']['ssl']['dv']['title'] = "ドメイン認証（DV）SSL";
 $_LANG['store']['ssl']['ov']['title'] = "企業認証（OV）SSL";
 $_LANG['store']['ssl']['ev']['title'] = "EV SSL";
 $_LANG['store']['ssl']['wildcard']['title'] = "ワイルドカードSSL";
-$_LANG['store']['websiteBuilder']['title'] = "Website Builder";
+$_LANG['store']['websiteBuilder']['title'] = "Webサイトビルダー";
 $_LANG['store']['configure']['configureProduct'] = "Configure Product";
 
-$_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
+$_LANG['store']['ssl']['dv']['tagline'] = "手軽にWebサイトを安全に";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "ドメイン認証（DV）SSLとは？";
 $_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
 
@@ -2176,7 +2176,7 @@ $_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visi
 $_LANG['store']['ssl']['ov']['descriptionTitle'] = "企業認証（OV）SSLとは？";
 $_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
 
-$_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
+$_LANG['store']['ssl']['ev']['tagline'] = "緑のアドレスバーで、最高の信頼性を";
 $_LANG['store']['ssl']['ev']['descriptionTitle'] = "EV SSLとは？";
 $_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL activates the green address bar and displays your company or organization name in the browser address bar. These prominent visual security indicators let visitors know that extra steps were taken to confirm the site they're visiting, increasing user trust in your website and its credibility – this is why most large companies and organizations choose EV certificates.</p>";
 
