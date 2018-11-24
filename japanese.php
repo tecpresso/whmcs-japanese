@@ -1881,7 +1881,7 @@ $_LANG['cPanel']['create'] = "作成";
 $_LANG['cPanel']['emailAccountCreateSuccess'] = "メールアカウントが作成されました！";
 $_LANG['cPanel']['emailAccountCreateFailed'] = "メールアカウントを作成できませんでした： ";
 
-$_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
+$_LANG['cPanel']['packageNotActive'] = "このホスティングパッケージは現在";
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
 $_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
 
@@ -1920,7 +1920,7 @@ $_LANG['orderForm']['findNewDomain'] = "Find your new domain name. Enter your na
 $_LANG['orderForm']['transferExistingDomain'] = "Transfer your existing domain names to us and save.";
 $_LANG['orderForm']['www'] = "www.";
 $_LANG['orderForm']['check'] = "取得可能かチェック";
-$_LANG['orderForm']['returnToClientArea'] = "Return to Client Area";
+$_LANG['orderForm']['returnToClientArea'] = "アカウントページに戻る";
 $_LANG['orderForm']['checkout'] = "お支払い";
 $_LANG['orderForm']['alreadyRegistered'] = "登録済みですか？";
 $_LANG['orderForm']['createAccount'] = "新規アカウント登録";
@@ -1944,7 +1944,7 @@ $_LANG['orderForm']['postcode'] = "郵便番号";
 $_LANG['orderForm']['domainAlternativeContact'] = "You may specify alternative registered contact details for the domain registration(s) in your order when placing an order on behalf of another person or entity. If you do not require this, you can skip this section.";
 $_LANG['orderForm']['accountSecurity'] = "セキュリティ";
 $_LANG['orderForm']['mediumStrength'] = "Medium Strength";
-$_LANG['orderForm']['paymentDetails'] = "Payment Details";
+$_LANG['orderForm']['paymentDetails'] = "お支払い明細";
 $_LANG['orderForm']['preferredPaymentMethod'] = "お支払い方法を選択してください";
 $_LANG['orderForm']['cardNumber'] = "クレジットカード番号";
 $_LANG['orderForm']['cvv'] = "セキュリティコード";
@@ -1952,7 +1952,7 @@ $_LANG['orderForm']['additionalNotes'] = "Additional Notes";
 $_LANG['orderForm']['continueToClientArea'] = "アカウントページへ移動";
 $_LANG['orderForm']['reviewDomainAndAddons'] = "対象のドメインを再度ご確認のうえ、必要な情報を入力してください。";
 $_LANG['orderForm']['addToCart'] = "カートに入れる";
-$_LANG['orderForm']['addedToCartRemove'] = "Added to Cart (Remove)";
+$_LANG['orderForm']['addedToCartRemove'] = "カートに追加（削除）";
 $_LANG['orderForm']['configureDesiredOptions'] = "お申し込み内容を変更し、「続ける」をクリックしてください。";
 $_LANG['orderForm']['haveQuestionsContact'] = "ご質問やご要望は、お気軽にお問い合わせください。";
 $_LANG['orderForm']['haveQuestionsClickHere'] = "ここをクリック";
@@ -1963,7 +1963,7 @@ $_LANG['orderForm']['domainAddedToCart'] = "このドメインはカートに追
 $_LANG['orderForm']['registerLongerAndSave'] = "Register for longer and save!";
 $_LANG['orderForm']['tryRegisteringInstead'] = "Try registering this domain instead.";
 $_LANG['orderForm']['domainAvailabilityCached'] = "Domain availability results are cached which may lead to recently registered domains being shown as available.";
-$_LANG['orderForm']['submitTicket'] = "Submit a Ticket";
+$_LANG['orderForm']['submitTicket'] = "お問い合わせを送信";
 $_LANG['orderForm']['promotionAccepted'] = "クーポンを適用し、お支払い合計金額を変更しました。";
 $_LANG['orderForm']['productOptions'] = "サービス／オプション";
 $_LANG['orderForm']['qty'] = "数量";
@@ -1972,7 +1972,7 @@ $_LANG['orderForm']['edit'] = "編集";
 $_LANG['orderForm']['update'] = "更新";
 $_LANG['orderForm']['remove'] = "削除";
 $_LANG['orderForm']['applyPromoCode'] = "クーポンのご利用";
-$_LANG['orderForm']['estimateTaxes'] = "Estimate Taxes";
+$_LANG['orderForm']['estimateTaxes'] = "消費税を計算";
 $_LANG['orderForm']['removePromotionCode'] = "クーポンを削除";
 $_LANG['orderForm']['updateTotals'] = "合計金額を再計算";
 $_LANG['orderForm']['continueShopping'] = "他のサービスを追加する";
@@ -1999,7 +1999,7 @@ $_LANG['cloudSlider']['selectProductLevel'] = "Select the Perfect Level for You!
 
 $_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
 
-$_LANG['orderpaymenttermfree'] = "Free";
+$_LANG['orderpaymenttermfree'] = "無料";
 
 $_LANG['cPanel']['usageStatsBwOverLimit'] = "使用可能な通信量を超えました。";
 $_LANG['cPanel']['usageStatsDiskOverLimit'] = "使用可能なディスク容量を超えました。";
@@ -2064,21 +2064,21 @@ $_LANG['markdown']['smith']= "Smith";
 $_LANG['markdown']['female'] = "Female";
 $_LANG['markdown']['displayingCode'] = "コード";
 $_LANG['markdown']['spanningMultipleLines'] = "複数行をまとめて書く場合";
-$_LANG['markdown']['saved'] = "saved";
-$_LANG['markdown']['saving'] = "autosaving";
+$_LANG['markdown']['saved'] = "保存しました";
+$_LANG['markdown']['saving'] = "保存中です";
 
 $_LANG['oauth']['authoriseAppToAccess'] = "Authorise :appName<br />to access your account?";
 $_LANG['oauth']['willBeAbleTo'] = "This application will be able to";
 $_LANG['oauth']['authorise'] = "認証";
 $_LANG['oauth']['currentlyLoggedInAs'] = ":lastName :firstName さんとしてログインしています";
 $_LANG['oauth']['notYou'] = "あなたではありませんか？";
-$_LANG['oauth']['returnToApp'] = "Return to :appName";
+$_LANG['oauth']['returnToApp'] = ":appName に戻る";
 $_LANG['oauth']['copyrightFooter'] = "Copyright &copy; :dateYear :companyName All Rights Reserved.";
 $_LANG['oauth']['loginToGrantApp'] = "Login to grant :appName<br />access to your account";
 $_LANG['oauth']['redirectDescriptionOne'] = "元のページにリダイレクト中です。少々時間がかかる場合があります。";
 $_LANG['oauth']['redirectDescriptionTwo'] = "もししばらく待ってもページが移動しない場合は、";
 $_LANG['oauth']['redirectDescriptionThree'] = "ここをクリックしてください";
-$_LANG['downloadLoginRequiredTagline'] = "Please login to access the requested file download";
+$_LANG['downloadLoginRequiredTagline'] = "ファイルをダウンロードするにはログインしてください";
 
 $_LANG['orderForm']['year'] = "年";
 $_LANG['orderForm']['years'] = "年";
@@ -2087,13 +2087,13 @@ $_LANG['orderForm']['searching'] = "検索中";
 $_LANG['orderForm']['domainIsUnavailable'] = "<strong>:domain</strong> は既に取得されています"; //Strong tag is required here
 $_LANG['orderForm']['add'] = "追加";
 $_LANG['orderForm']['suggestedDomains'] = "おすすめのドメイン";
-$_LANG['orderForm']['generatingSuggestions'] = "Generating suggestions for you";
+$_LANG['orderForm']['generatingSuggestions'] = "おすすめをリストアップ中";
 $_LANG['orderForm']['addHosting'] = "同時にレンタルサーバを申し込み";
 $_LANG['orderForm']['chooseFromRange'] = "Choose from a range of web hosting packages";
 $_LANG['orderForm']['packagesForBudget'] = "様々なご予算やご要望に合わせたプランをご用意しています";
-$_LANG['orderForm']['exploreNow'] = "Explore packages now";
+$_LANG['orderForm']['exploreNow'] = "プランを見る";
 $_LANG['orderForm']['transferToUs'] = "お持ちのドメインを移管";
-$_LANG['orderForm']['transferExtend'] = "Transfer now to extend your domain by 1 year!";
+$_LANG['orderForm']['transferExtend'] = "ドメイン移管で期限を1年延長できます！";
 $_LANG['orderForm']['transferDomain'] = "お持ちのドメインを移管";
 $_LANG['orderForm']['extendExclusions'] = "Excludes certain TLDs and recently renewed domains";
 $_LANG['orderForm']['singleTransfer'] = "移管対象ドメイン情報";
@@ -2134,7 +2134,7 @@ $_LANG['clientHomePanels']['showingRecent100'] = "最新の100件を表示中";
 $_LANG['orderForm']['domainLetterOrNumber'] = "ドメインの最初の文字はアルファベットか数字で始まる必要があります";
 $_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
 
-$_LANG['clientareatransferredaway'] = "Transferred Away";
+$_LANG['clientareatransferredaway'] = "移管完了";
 $_LANG['clientareacompleted'] = "完了";
 $_LANG['domainContactUs'] = "お問い合わせ";
 
@@ -2192,13 +2192,13 @@ $_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
 $_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
 $_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
 
-$_LANG['navManageSsl'] = "Manage SSL Certificates";
+$_LANG['navManageSsl'] = "SSL証明書管理";
 
-$_LANG['invoicesPaymentPending'] = "Payment Pending";
+$_LANG['invoicesPaymentPending'] = "支払い保留中";
 
-$_LANG['ssl']['changeApproverEmail'] = "Change Approver Email";
-$_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
-$_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
+$_LANG['ssl']['changeApproverEmail'] = "承認用メールアドレス変更";
+$_LANG['ssl']['reissueCertificate'] = "証明書再発行";
+$_LANG['ssl']['retrieveCertificate'] = "証明書取得";
 
 $_LANG['upgradeCredit'] = "Upgrade Credit";
 $_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
@@ -2206,7 +2206,7 @@ $_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused
 $_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Your domain is not supported for transfer to us at this time. Please try another domain.";
 $_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Your domain is not eligible for transfer to us. Please try another domain.";
 
-$_LANG['remoteAuthn']['success'] = 'Success!';
+$_LANG['remoteAuthn']['success'] = '完了！';
 $_LANG['remoteAuthn']['errorExclamation'] = 'エラー！';
 $_LANG['remoteAuthn']['error'] = 'エラー';
 $_LANG['remoteAuthn']['linkInitiated'] = 'Link Initiated!';
@@ -2214,7 +2214,7 @@ $_LANG['remoteAuthn']['areYouSure'] = '本当によろしいですか？';
 $_LANG['remoteAuthn']['yesUnlinkIt'] = 'はい、リンクを解除します！';
 $_LANG['remoteAuthn']['unlinked'] = 'リンクを解除しました！';
 $_LANG['remoteAuthn']['unavailable'] = 'は、現在ご利用頂けません。後ほど改めてお試しください。';
-$_LANG['remoteAuthn']['connectError'] = 'We were unable to connect your account. Please contact your system administrator.';
+$_LANG['remoteAuthn']['connectError'] = 'アカウントに接続できませんでした。システム管理者にお問い合わせください。';
 $_LANG['remoteAuthn']['completeSignIn'] = 'Please complete sign in with your chosen service provider.';
 $_LANG['remoteAuthn']['redirecting'] = '自動ログインしました。リダイレクトします...';
 $_LANG['remoteAuthn']['accountNowLinked'] = 'あなたのアカウントは現在 :displayName アカウントとリンクされました。';
@@ -2233,7 +2233,7 @@ $_LANG['remoteAuthn']['provider'] = 'プロバイダ';
 $_LANG['remoteAuthn']['name'] = '名前';
 $_LANG['remoteAuthn']['emailAddress'] = 'メールアドレス';
 $_LANG['remoteAuthn']['actions'] = 'Actions';
-$_LANG['remoteAuthn']['noLinkedAccounts'] = 'No linked accounts found';
+$_LANG['remoteAuthn']['noLinkedAccounts'] = 'リンクされたアカウントがありません';
 $_LANG['remoteAuthn']['signInWith'] = ':provider でサインイン';
 $_LANG['remoteAuthn']['connectWith'] = ':provider で接続';
 $_LANG['remoteAuthn']['signUpWith'] = ':provider でサインアップ';
@@ -2248,7 +2248,7 @@ $_LANG['errorPage']['404']['description'] = "Please try navigating using the opt
 $_LANG['errorPage']['404']['home'] = "ホームページ";
 $_LANG['errorPage']['404']['submitTicket'] = "サポート問い合わせ";
 
-$_LANG['creditCard']['removeDescription'] = "Are you sure you wish to remove your credit card details?";
+$_LANG['creditCard']['removeDescription'] = "本当にクレジットカード情報を削除してもよろしいですか？";
 
 $_LANG['marketConnect']['weebly']['ftpHost'] = "FTPホスト";
 $_LANG['marketConnect']['weebly']['ftpUsername'] = "FTPユーザ名";
