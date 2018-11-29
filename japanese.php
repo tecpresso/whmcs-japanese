@@ -285,7 +285,7 @@ $_LANG['days'] = "日";
 $_LANG['hours'] = "時";
 $_LANG['minutes'] = "分";
 $_LANG['seconds'] = "秒";
-$_LANG['defaultbillingcontact'] = "Default Billing Contact";
+$_LANG['defaultbillingcontact'] = "規定のお支払い担当者";
 $_LANG['domainalternatives'] = "Try these alternatives:";
 $_LANG['domainavailable'] = "Available! Order Now";
 $_LANG['domainavailable1'] = "";
@@ -416,7 +416,7 @@ $_LANG['invoiceaddcreditovercredit'] = "You cannot apply more credit than you ha
 $_LANG['invoicenumber'] = "Invoice #";
 $_LANG['invoiceofflinepaid'] = "Offline Credit Card Payments are processed manually.<br />You will receive confirmation by email once your payment has been processed.";
 $_LANG['invoicerefnum'] = "Reference Number";
-$_LANG['invoices'] = "My Invoices";
+$_LANG['invoices'] = "請求書一覧";
 $_LANG['invoicesamount'] = "Amount";
 $_LANG['invoicesattn'] = "ATTN";
 $_LANG['invoicesbacktoclientarea'] = "&laquo; 会員ページに戻る";
@@ -822,7 +822,7 @@ $_LANG['upgradenewconfig'] = "New Configuration";
 $_LANG['upgradenochange'] = "No Change";
 $_LANG['upgradeproductlogic'] = "Upgrade price is calculated from a credit of the unused portion of the current plan and billing of the new plan for the same period";
 $_LANG['upgradesummary'] = "Below is a summary of your upgrade order.";
-$_LANG['usedefaultcontact'] = "Use Default Contact (Details Above)";
+$_LANG['usedefaultcontact'] = "このページの登録情報を使用する";
 $_LANG['varilogixfraudcall_callnow'] = "Call Now!";
 $_LANG['varilogixfraudcall_description'] = "As part of our fraud prevention measures, we will now call the phone number registered for your account and ask you to enter the above pin code. Please make a note of the pin code and when you are ready for us to place the phone call, please click on the button below.";
 $_LANG['varilogixfraudcall_error'] = "An error occurred and we could not call your phone number to verify your order. Please contact our support department as soon as possible to complete your order.";
@@ -890,11 +890,11 @@ $_LANG['subaccountpermsproducts'] = "契約済みサービス一覧の閲覧";
 $_LANG['subaccountpermsmanageproducts'] = "契約済みサービスのパスワード変更";
 $_LANG['subaccountpermsdomains'] = "取得済みドメイン一覧の閲覧";
 $_LANG['subaccountpermsmanagedomains'] = "ドメイン関連の設定変更";
-$_LANG['subaccountpermsinvoices'] = "請求書の閲覧と支払い";
+$_LANG['subaccountpermsinvoices'] = "請求書の閲覧とお支払い";
 $_LANG['subaccountpermstickets'] = "サポートへのお問い合わせ";
 $_LANG['subaccountpermsaffiliates'] = "アフィリエイトアカウントの管理";
 $_LANG['subaccountpermsemails'] = "メール履歴の閲覧";
-$_LANG['subaccountpermsorders'] = "サービスの追加お申し込み・サービス契約内容の管理";
+$_LANG['subaccountpermsorders'] = "サービスの利用お申し込み・サービス契約内容の管理";
 $_LANG['subaccountpermissiondenied'] = "このページへのアクセス権がありません";
 $_LANG['subaccountallowedperms'] = "Your allowed permissions are:";
 $_LANG['subaccountcontactmaster'] = "Contact the master account owner if you feel this to be an error.";
@@ -916,7 +916,7 @@ $_LANG['domainrenewalsdaysago'] = "Days Ago";
 $_LANG['invoicespartialpayments'] = "Partial Payments";
 $_LANG['invoicestotaldue'] = "Total Due";
 
-$_LANG['masspaytitle'] = "Mass Payment";
+$_LANG['masspaytitle'] = "まとめて支払い";
 $_LANG['masspaydescription'] = "Below is a summary of the selected invoices and the total due to pay all of them. To submit payment please just choose your desired payment method below and then submit.";
 $_LANG['masspayselected'] = "Pay Selected";
 $_LANG['masspayall'] = "Pay All";
@@ -1021,7 +1021,7 @@ $_LANG['orderpromoprestart'] = "This promotion has not yet started. Please try a
 $_LANG['ticketmerge'] = "MERGED";
 
 $_LANG['quote'] = "見積もり";
-$_LANG['quotestitle'] = "見積もり一覧";
+$_LANG['quotestitle'] = "見積書一覧";
 $_LANG['quoteview'] = "表示";
 $_LANG['quotedownload'] = "ダウンロード";
 $_LANG['quoteacceptbtn'] = "Accept Quote";
@@ -1191,8 +1191,8 @@ $_LANG['bundlewarningdomainaddon'] = "The selected bundle requires you select th
 # New Client Area Template  Lines
 
 $_LANG['navservices'] = "サービス";
-$_LANG['navservicesorder'] = "Order New Services";
-$_LANG['navservicesplaceorder'] = "Place a New Order";
+$_LANG['navservicesorder'] = "サービス利用お申し込み";
+$_LANG['navservicesplaceorder'] = "お申し込み";
 $_LANG['navdomains'] = "ドメイン";
 $_LANG['navrenewdomains'] = "ドメイン期限更新";
 $_LANG['navregisterdomain'] = "新規ドメイン取得";
@@ -1309,7 +1309,7 @@ $_LANG['domaincheckerenterdomain'] = "Start your web hosting experience with us 
 $_LANG['kbquestionsearchere'] = "Have a question? Start your search here.";
 $_LANG['contactus'] = "お問い合わせ";
 
-$_LANG['opennewticket'] = "Open New Ticket";
+$_LANG['opennewticket'] = "お問い合わせ送信";
 $_LANG['searchtickets'] = "Enter Ticket # or Subject";
 $_LANG['supportticketspriority'] = "緊急度";
 $_LANG['supportticketsubmitted'] = "Submitted";
@@ -1590,8 +1590,8 @@ $_LANG['servername'] = "Server Name";
 $_LANG['visitwebsite'] = "Visit Website";
 $_LANG['whoisinfo'] = "WHOIS情報";
 
-$_LANG['tableshowing'] = "Showing _START_ to _END_ of _TOTAL_ entries";
-$_LANG['tableempty'] = "Showing 0 to 0 of 0 entries";
+$_LANG['tableshowing'] = "_TOTAL_ 件中 _START_ 〜 _END_ 件目を表示中";
+$_LANG['tableempty'] = "0 件中 0 〜 0 件目を表示中";
 $_LANG['tablefiltered'] = "(filtered from _MAX_ total entries)";
 $_LANG['tablelength'] = "Show _MENU_ entries";
 $_LANG['tableloading'] = "読み込み中…";
@@ -1629,9 +1629,9 @@ $_LANG['nodomainextensions'] = "There are no Domain Extensions currently configu
 $_LANG['homebegin'] = "Begin the search for your perfect domain name...";
 $_LANG['howcanwehelp'] = "何をお探しですか？";
 $_LANG['exampledomain'] = "例：example.com";
-$_LANG['buyadomain'] = "Buy A Domain";
+$_LANG['buyadomain'] = "ドメイン取得";
 $_LANG['orderhosting'] = "Order Hosting";
-$_LANG['makepayment'] = "Make Payment";
+$_LANG['makepayment'] = "お支払い";
 $_LANG['getsupport'] = "Get Support";
 
 $_LANG['news'] = "新着情報";
@@ -1765,11 +1765,11 @@ $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "You have :numberOfInvoices o
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "有効期限の近いドメイン";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "You have :numberOfDomains domain(s) expiring within the next :days days. Renew them today for peace of mind.";
 $_LANG['clientHomePanels']['activeProductsServices'] = "ご利用中のサービス";
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "It appears you do not have any products/services with us yet. <a href=\"cart.php\">Place an order to get started</a>.";
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "現在ご利用頂いているサービスはありません。<br><a href=\"cart.php\">こちらからサービスの利用をお申し込み頂けます</a>。";
 $_LANG['clientHomePanels']['recentNews'] = "新着情報";
 $_LANG['clientHomePanels']['affiliateProgram'] = "アフィリエイトプログラム";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "最近のお問い合わせ";
-$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
+$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "最近のお問い合わせはありません。<br>お問い合わせは、<a href=\"submitticket.php\">こちらのページよりお送りください</a>。";
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
 
