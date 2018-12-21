@@ -2415,7 +2415,7 @@ $_LANG['maxmind_faileddescription'] = "The code you entered was incorrect. If yo
 /* Original: 
 $_LANG['maxmind_highfraudriskscore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
 Translated: */
-$_LANG['maxmind_highfraudriskscore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href
+$_LANG['maxmind_highfraudriskscore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
 
 /* Original: 
 $_LANG['maxmind_highriskcountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
@@ -5836,7 +5836,7 @@ $_LANG['invoicesnoneunpaid'] = "There are currently no unpaid invoices";
 /* Original: 
 $_LANG['registerdisablednotice'] = "To register please place an <strong><a href=\"cart.php\">order</a></strong>";
 Translated: */
-$_LANG['registerdisablednotice'] = "To register please place an <strong><a href
+$_LANG['registerdisablednotice'] = "To register please place an <strong><a href=\"cart.php\">order</a></strong>";
 
 /* Original: 
 $_LANG['registerCreateAccount'] = "To create an account, please";
@@ -7956,7 +7956,7 @@ $_LANG['clientHomePanels']['activeProductsServices'] = "ご利用中のサービ
 /* Original: 
 $_LANG['clientHomePanels']['activeProductsServicesNone'] = "It appears you do not have any products/services with us yet. <a href=\"cart.php\">Place an order to get started</a>.";
 Translated: */
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "現在ご利用頂いているサービスはありません。<br><a href
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "現在ご利用頂いているサービスはありません。<br><a href=\"cart.php\">こちらからサービスの利用をお申し込み頂けます</a>。";
 
 /* Original: 
 $_LANG['clientHomePanels']['recentNews'] = "Recent News";
@@ -7976,7 +7976,7 @@ $_LANG['clientHomePanels']['recentSupportTickets'] = "最近のお問い合わ�
 /* Original: 
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
 Translated: */
-$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "最近のお問い合わせはありません。<br>お問い合わせは、<a href
+$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "最近のお問い合わせはありません。<br>お問い合わせは、<a href=\"submitticket.php\">こちらのページよりお送りください</a>。";
 
 /* Original: 
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
@@ -8492,7 +8492,7 @@ $_LANG['clientAreaProductDownloadsAvailable'] = "The following download items ar
 /* Original: 
 $_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href=\"cart.php?gid=addons\">Click here to view &amp; order &raquo;</a>";
 Translated: */
-$_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href
+$_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href=\"cart.php?gid=addons\">Click here to view &amp; order &raquo;</a>";
 
 /* Original: 
 $_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage you to enable Two-Factor Authentication for added security.";
@@ -9567,8 +9567,7 @@ $_LANG['orderForm']['domainLetterOrNumber'] = "ドメインの最初の文字は
 /* Original: 
 $_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
 Translated: */
-$_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class
-
+$_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
 
 /* Original: 
 $_LANG['clientareatransferredaway'] = "Transferred Away";
