@@ -1355,7 +1355,7 @@ $_LANG['domainavailable'] = "利用可能です！ 今すぐ注文";
 /* Original: 
 $_LANG['domainavailable1'] = "Congratulations!";
 Translated: */
-$_LANG['domainavailable1'] = "";
+$_LANG['domainavailable1'] = "おめでとうございます！";
 
 /* Original: 
 $_LANG['domainavailable2'] = "is available!";
@@ -1375,12 +1375,12 @@ $_LANG['domainbulksearch'] = "ドメイン一括検索";
 /* Original: 
 $_LANG['domainbulksearchintro'] = "The bulk real-time domain name search allows you to search up to 20 domains at once.  Enter the domains in the field below, one per line - do not enter www. or http:// in front.";
 Translated: */
-$_LANG['domainbulksearchintro'] = "The bulk real-time domain name search allows you to search up to 20 domains at once.  Enter the domains in the field below, one per line - do not enter www. or http:// in front.";
+$_LANG['domainbulksearchintro'] = " ドメイン名の検索では、一度に最大20のドメインを検索できます。 下のフィールドに1行に1つずつドメインを入力します。ドメイン名の前に「www」や「http://」は入力しないでください。";
 
 /* Original: 
 $_LANG['domainbulktransferdescription'] = "You can transfer your existing domains to us today.  To get started, simply enter the domains below, one per line - do not include the www. or http://";
 Translated: */
-$_LANG['domainbulktransferdescription'] = "You can transfer your existing domains to us today.  To get started, simply enter the domains below, one per line - do not include the www. or http://";
+$_LANG['domainbulktransferdescription'] = "お持ちのドメインは今すぐこちらに移管することができます。 開始するには、以下へドメインを1行に1つずつ入力します。「www」や「http://」は入れないでください。";
 
 /* Original: 
 $_LANG['domainbulktransfersearch'] = "Bulk Domain Transfer";
@@ -1390,7 +1390,7 @@ $_LANG['domainbulktransfersearch'] = "ドメイン一括移管";
 /* Original: 
 $_LANG['domaincontactinfo'] = "Contact Information";
 Translated: */
-$_LANG['domaincontactinfo'] = "Contact Information";
+$_LANG['domaincontactinfo'] = "連絡先";
 
 /* Original: 
 $_LANG['domaincurrentrenewaldate'] = "Current Renewal Date";
@@ -1410,7 +1410,7 @@ $_LANG['domaindnshostname'] = "ホスト名";
 /* Original: 
 $_LANG['domaindnsmanagement'] = "DNS Management";
 Translated: */
-$_LANG['domaindnsmanagement'] = "DNS Management";
+$_LANG['domaindnsmanagement'] = "DNSの管理";
 
 /* Original: 
 $_LANG['domaindnsmanagementdesc'] = "Point your domain to a web site by pointing to an IP Address, or forward to another site, or point to a temporary page (known as Parking), and more. These records are also known as sub-domains.";
@@ -1430,12 +1430,12 @@ $_LANG['domainemailforwarding'] = "メール転送";
 /* Original: 
 $_LANG['domainemailforwardingdesc'] = "If the Email Forwarding Server determines the Forward To address is invalid, we will disable the forwarding record automatically. Please check the Forward To address before you enable it again. The changes on any existing forwarding record may not take effect for up to 1 hour.";
 Translated: */
-$_LANG['domainemailforwardingdesc'] = "If the Email Forwarding Server determines the Forward To address is invalid, we will disable the forwarding record automatically. Please check the Forward To address before you enable it again. The changes on any existing forwarding record may not take effect for up to 1 hour.";
+$_LANG['domainemailforwardingdesc'] = "転送先アドレスが見つからなかった場合、転送レコードは自動で無効になります。 転送先アドレスを確認してから、再度その設定を有効にしてください。 既存の転送レコードの変更は、反映に最大1時間程かかる場合があります。";
 
 /* Original: 
 $_LANG['domainemailforwardingforwardto'] = "Forward To";
 Translated: */
-$_LANG['domainemailforwardingforwardto'] = "Forward To";
+$_LANG['domainemailforwardingforwardto'] = "へ転送";
 
 /* Original: 
 $_LANG['domainemailforwardingprefix'] = "Prefix";
@@ -1460,7 +1460,7 @@ $_LANG['domaineppcoderequired'] = "次のドメインのAuth Code（オースコ
 /* Original: 
 $_LANG['domainerror'] = "There was a problem connecting to the domain registry. Please try again later.";
 Translated: */
-$_LANG['domainerror'] = "There was a problem connecting to the domain registry. Please try again later.";
+$_LANG['domainerror'] = "ドメインレジストリに接続する際に問題が発生しました。 後程もう一度お試しください。";
 
 /* Original: 
 $_LANG['domainerrornodomain'] = "Please enter a Valid Domain Name";
@@ -1470,7 +1470,7 @@ $_LANG['domainerrornodomain'] = "正しいドメインを入力してくださ�
 /* Original: 
 $_LANG['domainerrortoolong'] = "The domain you entered is too long. Domains can only be up to 67 characters in length.";
 Translated: */
-$_LANG['domainerrortoolong'] = "The domain you entered is too long. Domains can only be up to 67 characters in length.";
+$_LANG['domainerrortoolong'] = "入力したドメインが長すぎます。 ドメインの長さは最大67文字です。";
 
 /* Original: 
 $_LANG['domaingeteppcode'] = "Get EPP Code";
@@ -1480,42 +1480,42 @@ $_LANG['domaingeteppcode'] = "Auth Codeを取得";
 /* Original: 
 $_LANG['domaingeteppcodeemailconfirmation'] = "The EPP Code request was successful! It has been sent to the registrant email address for your domain.";
 Translated: */
-$_LANG['domaingeteppcodeemailconfirmation'] = "The EPP Code request was successful! It has been sent to the registrant email address for your domain.";
+$_LANG['domaingeteppcodeemailconfirmation'] = "EPPコードリクエストが申請されました！ ドメインの登録メールアドレスへ送信されました";
 
 /* Original: 
 $_LANG['domaingeteppcodeexplanation'] = "The EPP Code is basically a password for a domain name. It is a security measure, ensuring that only the domain name owner can transfer a domain name. You will need it if you are wanting to transfer the domain to another registrar.";
 Translated: */
-$_LANG['domaingeteppcodeexplanation'] = "The EPP Code is basically a password for a domain name. It is a security measure, ensuring that only the domain name owner can transfer a domain name. You will need it if you are wanting to transfer the domain to another registrar.";
+$_LANG['domaingeteppcodeexplanation'] = "EPPコードは基本的にはドメイン名のパスワードのようなものです。 ドメイン名の所有者だけがドメイン名を転送できるようにするセキュリティ対策です。 ドメインを別のレジストラに移管する場合に必要になります。";
 
 /* Original: 
 $_LANG['domaingeteppcodefailure'] = "There was an error in requesting the EPP Code:";
 Translated: */
-$_LANG['domaingeteppcodefailure'] = "There was an error in requesting the EPP Code:";
+$_LANG['domaingeteppcodefailure'] = "EPPコードを要求する際にエラーが発生しました：";
 
 /* Original: 
 $_LANG['domaingeteppcodeis'] = "The EPP Code for your domain is:";
 Translated: */
-$_LANG['domaingeteppcodeis'] = "The EPP Code for your domain is:";
+$_LANG['domaingeteppcodeis'] = "ドメインのEPPコードは：";
 
 /* Original: 
 $_LANG['domainidprotection'] = "ID Protection";
 Translated: */
-$_LANG['domainidprotection'] = "ID Protection";
+$_LANG['domainidprotection'] = "ID 保護";
 
 /* Original: 
 $_LANG['domainintrotext'] = "Enter the domain and tld you wish to use in the boxes below and click Lookup to see whether the domain is available for purchase.";
 Translated: */
-$_LANG['domainintrotext'] = "Enter the domain and tld you wish to use in the boxes below and click Lookup to see whether the domain is available for purchase.";
+$_LANG['domainintrotext'] = "下のボックスに使用するドメインとtldを入力し[検索]をクリックし、そのドメインが購入可能か確認します。";
 
 /* Original: 
 $_LANG['domainlookupbutton'] = "Lookup";
 Translated: */
-$_LANG['domainlookupbutton'] = "Lookup";
+$_LANG['domainlookupbutton'] = "検索";
 
 /* Original: 
 $_LANG['domainmanagementtools'] = "Management Tools";
 Translated: */
-$_LANG['domainmanagementtools'] = "Management Tools";
+$_LANG['domainmanagementtools'] = "管理ツール";
 
 /* Original: 
 $_LANG['domainminyears'] = "Min. Years";
@@ -1525,12 +1525,12 @@ $_LANG['domainminyears'] = "Min. Years";
 /* Original: 
 $_LANG['domainmoreinfo'] = "More Info";
 Translated: */
-$_LANG['domainmoreinfo'] = "More Info";
+$_LANG['domainmoreinfo'] = "詳細情報";
 
 /* Original: 
 $_LANG['domainname'] = "Domain Name";
 Translated: */
-$_LANG['domainname'] = "ドメイン";
+$_LANG['domainname'] = "ドメイン名";
 
 /* Original: 
 $_LANG['domainnameserver1'] = "Nameserver 1";
@@ -1570,7 +1570,7 @@ $_LANG['domainordernow'] = "今すぐ取得";
 /* Original: 
 $_LANG['domainorderrenew'] = "Order Renewal";
 Translated: */
-$_LANG['domainorderrenew'] = "Order Renewal";
+$_LANG['domainorderrenew'] = "更新の注文";
 
 /* Original: 
 $_LANG['domainprice'] = "Price";
@@ -1595,12 +1595,12 @@ $_LANG['domainregisternsdel'] = "ネームサーバを削除";
 /* Original: 
 $_LANG['domainregisternsdelsuccess'] = "The nameserver  was successfully deleted";
 Translated: */
-$_LANG['domainregisternsdelsuccess'] = "The nameserver  was successfully deleted";
+$_LANG['domainregisternsdelsuccess'] = "ネームサーバーは削除されました";
 
 /* Original: 
 $_LANG['domainregisternsexplanation'] = "From here you can create and manage custom nameservers for your domain (eg. NS1.example.com, NS2.example.com...).";
 Translated: */
-$_LANG['domainregisternsexplanation'] = "From here you can create and manage custom nameservers for your domain (eg. NS1.example.com, NS2.example.com...).";
+$_LANG['domainregisternsexplanation'] = "ここから、ドメインのカスタムネームサーバーを作成して管理することができます（例えば、NS1.example.com、NS2.example.com など）。";
 
 /* Original: 
 $_LANG['domainregisternsip'] = "IP Address";
@@ -1640,12 +1640,12 @@ $_LANG['domainregisternsregsuccess'] = "ネームサーバは正常に登録さ�
 /* Original: 
 $_LANG['domainregistrantchoose'] = "Select the contact you want to use here";
 Translated: */
-$_LANG['domainregistrantchoose'] = "Select the contact you want to use here";
+$_LANG['domainregistrantchoose'] = "連絡先を選択してください";
 
 /* Original: 
 $_LANG['domainregistrantinfo'] = "Domain Registrant Information";
 Translated: */
-$_LANG['domainregistrantinfo'] = "Domain Registrant Information";
+$_LANG['domainregistrantinfo'] = "ドメイン登録者情報";
 
 /* Original: 
 $_LANG['domainregistrarlock'] = "Registrar Lock";
@@ -1655,17 +1655,17 @@ $_LANG['domainregistrarlock'] = "ドメイン移管ロック";
 /* Original: 
 $_LANG['domainregistrarlockdesc'] = "Enable registrar lock (Recommended). Unauthorized transfer will be prevented if lock is set.";
 Translated: */
-$_LANG['domainregistrarlockdesc'] = "Enable registrar lock (Recommended). Unauthorized transfer will be prevented if lock is set.";
+$_LANG['domainregistrarlockdesc'] = "レジストラロックを有効にする（推奨）。 ロックが設定されていると、不正な転送が防止されます。";
 
 /* Original: 
 $_LANG['domainregistration'] = "Domain Registration";
 Translated: */
-$_LANG['domainregistration'] = "Domain Registration";
+$_LANG['domainregistration'] = "ドメイン登録";
 
 /* Original: 
 $_LANG['domainregistryinfo'] = "Domain Registry Information";
 Translated: */
-$_LANG['domainregistryinfo'] = "Domain Registry Information";
+$_LANG['domainregistryinfo'] = "ドメインレジストリ情報";
 
 /* Original: 
 $_LANG['domainregnotavailable'] = "N/A";
@@ -1675,12 +1675,12 @@ $_LANG['domainregnotavailable'] = "該当なし";
 /* Original: 
 $_LANG['domainrenew'] = "Renew Domain";
 Translated: */
-$_LANG['domainrenew'] = "Renew Domain";
+$_LANG['domainrenew'] = "ドメインの更新";
 
 /* Original: 
 $_LANG['domainrenewal'] = "Domain Renewal";
 Translated: */
-$_LANG['domainrenewal'] = "Domain Renewal";
+$_LANG['domainrenewal'] = "ドメイン更新";
 
 /* Original: 
 $_LANG['domainrenewalprice'] = "Renewal";
@@ -1710,7 +1710,7 @@ $_LANG['domainsautorenewdisabled'] = "無効";
 /* Original: 
 $_LANG['domainsautorenewdisabledwarning'] = "WARNING! This domain has auto renewal disabled.<br />It will therefore expire and become inactive at the end of the current term unless manually renewed.";
 Translated: */
-$_LANG['domainsautorenewdisabledwarning'] = "WARNING! This domain has auto renewal disabled.<br />It will therefore expire and become inactive at the end of the current term unless manually renewed.";
+$_LANG['domainsautorenewdisabledwarning'] = "警告！ このドメインは自動更新が無効になっています。<br />手動で更新しないと、有効期限が切れ無効となります。";
 
 /* Original: 
 $_LANG['domainsautorenewenable'] = "Enable Auto Renew";
@@ -1725,12 +1725,12 @@ $_LANG['domainsautorenewenabled'] = "有効";
 /* Original: 
 $_LANG['domainsautorenewstatus'] = "Current Status";
 Translated: */
-$_LANG['domainsautorenewstatus'] = "Current Status";
+$_LANG['domainsautorenewstatus'] = "現在のステータス";
 
 /* Original: 
 $_LANG['domainsimplesearch'] = "Simple Domain Search";
 Translated: */
-$_LANG['domainsimplesearch'] = "Simple Domain Search";
+$_LANG['domainsimplesearch'] = "ドメイン検索";
 
 /* Original: 
 $_LANG['domainspricing'] = "Domain Pricing";
@@ -1765,7 +1765,7 @@ $_LANG['domainstransfer'] = "移管";
 /* Original: 
 $_LANG['domaintitle'] = "Domain Checker";
 Translated: */
-$_LANG['domaintitle'] = "Domain Checker";
+$_LANG['domaintitle'] = "ドメインチェッカー";
 
 /* Original: 
 $_LANG['domaintld'] = "TLD";
@@ -1780,7 +1780,7 @@ $_LANG['domaintransfer'] = "ドメイン移管";
 /* Original: 
 $_LANG['domainunavailable'] = "Unavailable";
 Translated: */
-$_LANG['domainunavailable'] = "Unavailable";
+$_LANG['domainunavailable'] = "利用できません";
 
 /* Original: 
 $_LANG['domainunavailable1'] = "Sorry!";
@@ -1795,7 +1795,7 @@ $_LANG['domainunavailable2'] = "は既に取得されています！";
 /* Original: 
 $_LANG['domainreserved'] = "Reserved";
 Translated: */
-$_LANG['domainreserved'] = "Reserved";
+$_LANG['domainreserved'] = "予約済み";
 
 /* Original: 
 $_LANG['domainreserved1'] = "Domain";
@@ -1805,12 +1805,12 @@ $_LANG['domainreserved1'] = "ドメイン";
 /* Original: 
 $_LANG['domainreserved2'] = "is available, but reserved.";
 Translated: */
-$_LANG['domainreserved2'] = "is available, but reserved.";
+$_LANG['domainreserved2'] = "利用可能ですが、予約されています。";
 
 /* Original: 
 $_LANG['domainviewwhois'] = "view whois report";
 Translated: */
-$_LANG['domainviewwhois'] = "view whois report";
+$_LANG['domainviewwhois'] = "whoisレポートを見る";
 
 /* Original: 
 $_LANG['downloaddescription'] = "Description";
@@ -1820,17 +1820,17 @@ $_LANG['downloaddescription'] = "説明";
 /* Original: 
 $_LANG['downloadloginrequired'] = "Access Denied - You must be logged in to download this file";
 Translated: */
-$_LANG['downloadloginrequired'] = "Access Denied - You must be logged in to download this file";
+$_LANG['downloadloginrequired'] = "アクセス拒否 - このファイルをダウンロードするにはログインする必要があります";
 
 /* Original: 
 $_LANG['downloadname'] = "Download";
 Translated: */
-$_LANG['downloadname'] = "Download";
+$_LANG['downloadname'] = "ダウンロード";
 
 /* Original: 
 $_LANG['downloadpurchaserequired'] = "Access Denied - You must purchase the associated product before you can download this";
 Translated: */
-$_LANG['downloadpurchaserequired'] = "Access Denied - You must purchase the associated product before you can download this";
+$_LANG['downloadpurchaserequired'] = "アクセスが拒否されました - ダウンロードする前に関連する製品を購入する必要があります";
 
 /* Original: 
 $_LANG['downloadscategories'] = "Categories";
@@ -1840,7 +1840,7 @@ $_LANG['downloadscategories'] = "カテゴリ";
 /* Original: 
 $_LANG['downloadsdescription'] = "View our library of downloads";
 Translated: */
-$_LANG['downloadsdescription'] = "View our library of downloads";
+$_LANG['downloadsdescription'] = "ダウンロードライブラリを見る";
 
 /* Original: 
 $_LANG['downloadsfiles'] = "Files";
@@ -1855,7 +1855,7 @@ $_LANG['downloadsfilesize'] = "容量";
 /* Original: 
 $_LANG['downloadsintrotext'] = "The download library has all the manuals, programs and other files that you may need to get your website up and running.";
 Translated: */
-$_LANG['downloadsintrotext'] = "The download library has all the manuals, programs and other files that you may need to get your website up and running.";
+$_LANG['downloadsintrotext'] = "ダウンロードライブラリには、ウェブサイトを起動して実行するまでのマニュアル、プログラム、他必要なものがあります。";
 
 /* Original: 
 $_LANG['downloadspopular'] = "Most Popular Downloads";
@@ -1900,22 +1900,22 @@ $_LANG['firstpaymentamount'] = "初回お支払い金額";
 /* Original: 
 $_LANG['flashtutorials'] = "Flash Tutorials";
 Translated: */
-$_LANG['flashtutorials'] = "Flash Tutorials";
+$_LANG['flashtutorials'] = "フラッシュチュートリアル";
 
 /* Original: 
 $_LANG['flashtutorialsdescription'] = "Click here to view tutorials showing you how to use your hosting control panel";
 Translated: */
-$_LANG['flashtutorialsdescription'] = "Click here to view tutorials showing you how to use your hosting control panel";
+$_LANG['flashtutorialsdescription'] = "コントロールパネルの使用方法を表示するには、ここをクリックしてください";
 
 /* Original: 
 $_LANG['flashtutorialsheadertext'] = "Our Flash Tutorials are here to help you fully utilise your web hosting control panel. Choose a task from below to see a step by step tutorial on how to complete it.";
 Translated: */
-$_LANG['flashtutorialsheadertext'] = "Our Flash Tutorials are here to help you fully utilise your web hosting control panel. Choose a task from below to see a step by step tutorial on how to complete it.";
+$_LANG['flashtutorialsheadertext'] = "フラッシュチュートリアルは、コントロールパネルをフル活用するのに役立ちます。 下のタスクを選択して、ステップバイステップチュートリアルで完了する方法を参照してください。";
 
 /* Original: 
 $_LANG['forwardingtogateway'] = "Please wait while you are redirected to the gateway you chose to make payment...";
 Translated: */
-$_LANG['forwardingtogateway'] = "Please wait while you are redirected to the gateway you chose to make payment...";
+$_LANG['forwardingtogateway'] = "お支払いをゲートウェイにリダイレクト中ですのでお待ちください...";
 
 /* Original: 
 $_LANG['globalsystemname'] = "Portal Home";
@@ -1935,7 +1935,7 @@ $_LANG['go'] = "OK";
 /* Original: 
 $_LANG['headertext'] = "Welcome to our Support Portal.";
 Translated: */
-$_LANG['headertext'] = "Welcome to our Support Portal.";
+$_LANG['headertext'] = "サポートポータルへようこそ。";
 
 /* Original: 
 $_LANG['hometitle'] = "Home";
@@ -1945,37 +1945,37 @@ $_LANG['hometitle'] = "ホーム";
 /* Original: 
 $_LANG['imagecheck'] = "Please enter the security code shown in the image - this is required to prevent automated submissions";
 Translated: */
-$_LANG['imagecheck'] = "Please enter the security code shown in the image - this is required to prevent automated submissions";
+$_LANG['imagecheck'] = "画像に表示されているセキュリティコードを入力してください - これは自動提出を防ぐために必要です";
 
 /* Original: 
 $_LANG['invoiceaddcreditamount'] = "Enter the amount to apply";
 Translated: */
-$_LANG['invoiceaddcreditamount'] = "Enter the amount to apply";
+$_LANG['invoiceaddcreditamount'] = "金額を入力してください";
 
 /* Original: 
 $_LANG['invoiceaddcreditapply'] = "Apply Credit";
 Translated: */
-$_LANG['invoiceaddcreditapply'] = "Apply Credit";
+$_LANG['invoiceaddcreditapply'] = "クレジットを適用する";
 
 /* Original: 
 $_LANG['invoiceaddcreditdesc1'] = "Your credit balance is";
 Translated: */
-$_LANG['invoiceaddcreditdesc1'] = "Your credit balance is";
+$_LANG['invoiceaddcreditdesc1'] = "クレジット残高は";
 
 /* Original: 
 $_LANG['invoiceaddcreditdesc2'] = "This can be applied to the invoice using the form below.";
 Translated: */
-$_LANG['invoiceaddcreditdesc2'] = "This can be applied to the invoice using the form below.";
+$_LANG['invoiceaddcreditdesc2'] = "以下のフォームを使用して請求書に適用することができます。";
 
 /* Original: 
 $_LANG['invoiceaddcreditoverbalance'] = "You cannot apply more credit than the balance due";
 Translated: */
-$_LANG['invoiceaddcreditoverbalance'] = "You cannot apply more credit than the balance due";
+$_LANG['invoiceaddcreditoverbalance'] = "残高よりも多くのクレジットを適用することはできません";
 
 /* Original: 
 $_LANG['invoiceaddcreditovercredit'] = "You cannot apply more credit than you have in your account";
 Translated: */
-$_LANG['invoiceaddcreditovercredit'] = "You cannot apply more credit than you have in your account";
+$_LANG['invoiceaddcreditovercredit'] = "アカウントにある金額よりも多くのクレジットを適用することはできません";
 
 /* Original: 
 $_LANG['invoicenumber'] = "Invoice #";
@@ -1985,7 +1985,7 @@ $_LANG['invoicenumber'] = "請求書番号";
 /* Original: 
 $_LANG['invoiceofflinepaid'] = "Offline Credit Card Payments are processed manually.<br />You will receive confirmation by email once your payment has been processed.";
 Translated: */
-$_LANG['invoiceofflinepaid'] = "Offline Credit Card Payments are processed manually.<br />You will receive confirmation by email once your payment has been processed.";
+$_LANG['invoiceofflinepaid'] = "オフラインクレジットカード決済は手作業で処理されます。<br />支払いが処理されたら、確認メールが送られます。";
 
 /* Original: 
 $_LANG['invoicerefnum'] = "Reference Number";
@@ -2005,7 +2005,7 @@ $_LANG['invoicesamount'] = "金額";
 /* Original: 
 $_LANG['invoicesattn'] = "ATTN";
 Translated: */
-$_LANG['invoicesattn'] = "ATTN";
+$_LANG['invoicesattn'] = "宛先";
 
 /* Original: 
 $_LANG['invoicesbacktoclientarea'] = "&laquo; Back to Client Area";
@@ -2020,7 +2020,7 @@ $_LANG['invoicesbalance'] = "バランス";
 /* Original: 
 $_LANG['invoicesbefore'] = "before";
 Translated: */
-$_LANG['invoicesbefore'] = "before";
+$_LANG['invoicesbefore'] = "前";
 
 /* Original: 
 $_LANG['invoicescancelled'] = "Cancelled";
@@ -2030,7 +2030,7 @@ $_LANG['invoicescancelled'] = "キャンセル";
 /* Original: 
 $_LANG['invoicescollections'] = "Collections";
 Translated: */
-$_LANG['invoicescollections'] = "Collections";
+$_LANG['invoicescollections'] = "コレクション";
 
 /* Original: 
 $_LANG['invoicescredit'] = "Credit";
@@ -2060,32 +2060,32 @@ $_LANG['invoicesdownload'] = "ダウンロード";
 /* Original: 
 $_LANG['invoiceserror'] = "An Error Occurred. Please Try Again.";
 Translated: */
-$_LANG['invoiceserror'] = "An Error Occurred. Please Try Again.";
+$_LANG['invoiceserror'] = "エラーが発生しました。 再度お試しください。";
 
 /* Original: 
 $_LANG['invoicesinvoicedto'] = "Invoiced To";
 Translated: */
-$_LANG['invoicesinvoicedto'] = "Invoiced To";
+$_LANG['invoicesinvoicedto'] = "請求先";
 
 /* Original: 
 $_LANG['invoicesinvoicenotes'] = "Invoice Notes";
 Translated: */
-$_LANG['invoicesinvoicenotes'] = "Invoice Notes";
+$_LANG['invoicesinvoicenotes'] = "請求書メモ";
 
 /* Original: 
 $_LANG['invoicesnoinvoices'] = "No Invoices";
 Translated: */
-$_LANG['invoicesnoinvoices'] = "No Invoices";
+$_LANG['invoicesnoinvoices'] = "請求書はありません";
 
 /* Original: 
 $_LANG['invoicesnotes'] = "Notes";
 Translated: */
-$_LANG['invoicesnotes'] = "Notes";
+$_LANG['invoicesnotes'] = "メモ";
 
 /* Original: 
 $_LANG['invoicesoutstandinginvoices'] = "Outstanding Invoices";
 Translated: */
-$_LANG['invoicesoutstandinginvoices'] = "Outstanding Invoices";
+$_LANG['invoicesoutstandinginvoices'] = "未払請求書";
 
 /* Original: 
 $_LANG['invoicespaid'] = "Paid";
@@ -2100,7 +2100,7 @@ $_LANG['invoicespaynow'] = "支払う";
 /* Original: 
 $_LANG['invoicespayto'] = "Pay To";
 Translated: */
-$_LANG['invoicespayto'] = "Pay To";
+$_LANG['invoicespayto'] = "へ支払います";
 
 /* Original: 
 $_LANG['invoicesrefunded'] = "Refunded";
@@ -2120,12 +2120,12 @@ $_LANG['invoicessubtotal'] = "小計";
 /* Original: 
 $_LANG['invoicestax'] = "Tax Due";
 Translated: */
-$_LANG['invoicestax'] = "Tax Due";
+$_LANG['invoicestax'] = "税金";
 
 /* Original: 
 $_LANG['invoicestaxindicator'] = "Indicates a taxed item.";
 Translated: */
-$_LANG['invoicestaxindicator'] = "Indicates a taxed item.";
+$_LANG['invoicestaxindicator'] = "課税された項目を示します。";
 
 /* Original: 
 $_LANG['invoicestitle'] = "Invoice #";
@@ -2175,7 +2175,7 @@ $_LANG['invoicesunpaid'] = "未払い";
 /* Original: 
 $_LANG['invoicesdraft'] = "Draft";
 Translated: */
-$_LANG['invoicesdraft'] = "Draft";
+$_LANG['invoicesdraft'] = "ドラフト";
 
 /* Original: 
 $_LANG['invoicesview'] = "View Invoice";
@@ -2190,12 +2190,12 @@ $_LANG['jobtitle'] = "役職";
 /* Original: 
 $_LANG['kbsuggestions'] = "Knowledgebase Suggestions";
 Translated: */
-$_LANG['kbsuggestions'] = "Knowledgebase Suggestions";
+$_LANG['kbsuggestions'] = "ナレッジベースの提案";
 
 /* Original: 
 $_LANG['kbsuggestionsexplanation'] = "The following articles were found in the knowledgebase which may answer your question. Please review the suggestions before submission.";
 Translated: */
-$_LANG['kbsuggestionsexplanation'] = "The following articles were found in the knowledgebase which may answer your question. Please review the suggestions before submission.";
+$_LANG['kbsuggestionsexplanation'] = "ナレッジベースには以下の記事があります。 まずはその記事を確認してください。";
 
 /* Original: 
 $_LANG['knowledgebasearticles'] = "Articles";
@@ -2215,7 +2215,7 @@ $_LANG['nokbcategories'] = "カテゴリがありません";
 /* Original: 
 $_LANG['knowledgebasedescription'] = "Browse our KB for answers to FAQs";
 Translated: */
-$_LANG['knowledgebasedescription'] = "Browse our KB for answers to FAQs";
+$_LANG['knowledgebasedescription'] = "FAQへの回答はKBを参照してください";
 
 /* Original: 
 $_LANG['knowledgebasefavorites'] = "Add to Favourites";
@@ -2230,12 +2230,12 @@ $_LANG['knowledgebasehelpful'] = "この回答はお役に立ちましたか？"
 /* Original: 
 $_LANG['knowledgebaseintrotext'] = "The knowledgebase is organized into different categories. Either choose a category from below or search the knowledgebase for the answer to your question.";
 Translated: */
-$_LANG['knowledgebaseintrotext'] = "The knowledgebase is organized into different categories. Either choose a category from below or search the knowledgebase for the answer to your question.";
+$_LANG['knowledgebaseintrotext'] = "ナレッジベースはさまざまなカテゴリに編成されています。 下からカテゴリを選択するか、質問に対する答えをナレッジベースで検索してください。";
 
 /* Original: 
 $_LANG['knowledgebasemore'] = "More";
 Translated: */
-$_LANG['knowledgebasemore'] = "More";
+$_LANG['knowledgebasemore'] = "もっと";
 
 /* Original: 
 $_LANG['knowledgebaseno'] = "No";
@@ -2265,17 +2265,17 @@ $_LANG['knowledgebaseprint'] = "このページを印刷";
 /* Original: 
 $_LANG['knowledgebaserating'] = "Rating:";
 Translated: */
-$_LANG['knowledgebaserating'] = "Rating:";
+$_LANG['knowledgebaserating'] = "評価:";
 
 /* Original: 
 $_LANG['knowledgebaseratingtext'] = "Users Found This Useful";
 Translated: */
-$_LANG['knowledgebaseratingtext'] = "Users Found This Useful";
+$_LANG['knowledgebaseratingtext'] = "ユーザが役立ったといっています";
 
 /* Original: 
 $_LANG['knowledgebaserelated'] = "Related Articles";
 Translated: */
-$_LANG['knowledgebaserelated'] = "Related Articles";
+$_LANG['knowledgebaserelated'] = "関連記事";
 
 /* Original: 
 $_LANG['knowledgebasesearch'] = "Search";
@@ -2290,17 +2290,17 @@ $_LANG['knowledgebasetitle'] = "よくあるご質問";
 /* Original: 
 $_LANG['knowledgebaseviews'] = "Views";
 Translated: */
-$_LANG['knowledgebaseviews'] = "Views";
+$_LANG['knowledgebaseviews'] = "ビュー";
 
 /* Original: 
 $_LANG['knowledgebasevote'] = "Vote";
 Translated: */
-$_LANG['knowledgebasevote'] = "Vote";
+$_LANG['knowledgebasevote'] = "投票";
 
 /* Original: 
 $_LANG['knowledgebasevotes'] = "Votes";
 Translated: */
-$_LANG['knowledgebasevotes'] = "Votes";
+$_LANG['knowledgebasevotes'] = "投票";
 
 /* Original: 
 $_LANG['knowledgebaseyes'] = "Yes";
@@ -2320,12 +2320,12 @@ $_LANG['language'] = "言語";
 /* Original: 
 $_LANG['latefee'] = "Late Fee";
 Translated: */
-$_LANG['latefee'] = "Late Fee";
+$_LANG['latefee'] = "延滞料";
 
 /* Original: 
 $_LANG['latefeeadded'] = "Added";
 Translated: */
-$_LANG['latefeeadded'] = "Added";
+$_LANG['latefeeadded'] = "追加済み";
 
 /* Original: 
 $_LANG['latestannouncements'] = "Latest Announcements";
@@ -2355,12 +2355,12 @@ $_LANG['loginforgotteninstructions'] = "パスワードのリセットリクエ�
 /* Original: 
 $_LANG['loginincorrect'] = "Login Details Incorrect. Please try again.";
 Translated: */
-$_LANG['loginincorrect'] = "Login Details Incorrect. Please try again.";
+$_LANG['loginincorrect'] = "ログインの詳細が正しくありません。 もう一度お試しください。";
 
 /* Original: 
 $_LANG['loginintrotext'] = "You must login to access this page. These login details differ from your websites control panel username and password.";
 Translated: */
-$_LANG['loginintrotext'] = "You must login to access this page. These login details differ from your websites control panel username and password.";
+$_LANG['loginintrotext'] = "このページにアクセスするには、ログインする必要があります。 これらのログインの詳細は、ウェブサイトのコントロールパネルのユーザー名とパスワードとは異なります。";
 
 /* Original: 
 $_LANG['loginpassword'] = "Password";
@@ -2375,7 +2375,7 @@ $_LANG['loginrememberme'] = "ログインを記憶する";
 /* Original: 
 $_LANG['logoutcontinuetext'] = "Click here to continue...";
 Translated: */
-$_LANG['logoutcontinuetext'] = "Click here to continue...";
+$_LANG['logoutcontinuetext'] = "続けるにはこちらをクリック...";
 
 /* Original: 
 $_LANG['logoutsuccessful'] = "You have been successfully logged out.";
@@ -2390,17 +2390,17 @@ $_LANG['logouttitle'] = "ログアウト";
 /* Original: 
 $_LANG['maxmind_anonproxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
 Translated: */
-$_LANG['maxmind_anonproxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
+$_LANG['maxmind_anonproxy'] = "匿名プロキシを使用して注文することはできません";
 
 /* Original: 
 $_LANG['maxmind_callingnow'] = "We are placing an automated call to your phone number now. This is part of our fraud checking measures. You will be given a 4 digit security code which you need to enter below to complete your order.";
 Translated: */
-$_LANG['maxmind_callingnow'] = "We are placing an automated call to your phone number now. This is part of our fraud checking measures. You will be given a 4 digit security code which you need to enter below to complete your order.";
+$_LANG['maxmind_callingnow'] = "あなたの電話番号に自動で電話をかけています。 これは不正詐欺対策の一環です。 注文を完了するためには、以下に入力する4桁のセキュリティコードが与えられます。";
 
 /* Original: 
 $_LANG['maxmind_countrymismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
 Translated: */
-$_LANG['maxmind_countrymismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
+$_LANG['maxmind_countrymismatch'] = "あなたのIPアドレスの国が、入力した請求先住所の国と一致していないため、注文を受け付けられません";
 
 /* Original: 
 $_LANG['maxmind_error'] = "Error";
@@ -2410,32 +2410,32 @@ $_LANG['maxmind_error'] = "エラー";
 /* Original: 
 $_LANG['maxmind_faileddescription'] = "The code you entered was incorrect. If you feel this to be an error, please contact our support department as soon as possible.";
 Translated: */
-$_LANG['maxmind_faileddescription'] = "The code you entered was incorrect. If you feel this to be an error, please contact our support department as soon as possible.";
+$_LANG['maxmind_faileddescription'] = "入力したコードは正しくありません。 これがエラーの場合は、早急にサポート部門にご連絡ください。";
 
 /* Original: 
 $_LANG['maxmind_highfraudriskscore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
 Translated: */
-$_LANG['maxmind_highfraudriskscore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+$_LANG['maxmind_highfraudriskscore'] = "お客様の注文は手動による審査が行われています。<br /><br />このメッセージを誤って受け取ったと思われる場合は、お詫びと<a href = \"submitticket.php\">サポートチケットをカスタマーサービスに送信</a>します。ありがとうございました。";
 
 /* Original: 
 $_LANG['maxmind_highriskcountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
 Translated: */
-$_LANG['maxmind_highriskcountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
+$_LANG['maxmind_highriskcountry'] = "あなたの国からの詐欺行為がたくさんあったので、ご注文をすすめることができません。 他のお支払い方法がありましたら、ご連絡ください。";
 
 /* Original: 
 $_LANG['maxmind_incorrectcode'] = "Incorrect Code";
 Translated: */
-$_LANG['maxmind_incorrectcode'] = "Incorrect Code";
+$_LANG['maxmind_incorrectcode'] = "コードが正しくありません";
 
 /* Original: 
 $_LANG['maxmind_pincode'] = "Pin Code";
 Translated: */
-$_LANG['maxmind_pincode'] = "Pin Code";
+$_LANG['maxmind_pincode'] = "ピンコード";
 
 /* Original: 
 $_LANG['maxmind_rejectemail'] = "We do not permit orders using a free email address, please try again using a different email address";
 Translated: */
-$_LANG['maxmind_rejectemail'] = "We do not permit orders using a free email address, please try again using a different email address";
+$_LANG['maxmind_rejectemail'] = "無料のメールアドレスを使用した注文は受け付けておりません。別のメールアドレスを使用してもう一度お試しください";
 
 /* Original: 
 $_LANG['maxmind_title'] = "MaxMind";
@@ -2445,17 +2445,17 @@ $_LANG['maxmind_title'] = "MaxMind";
 /* Original: 
 $_LANG['more'] = "More";
 Translated: */
-$_LANG['more'] = "More";
+$_LANG['more'] = "もっと";
 
 /* Original: 
 $_LANG['morechoices'] = "More Choices";
 Translated: */
-$_LANG['morechoices'] = "More Choices";
+$_LANG['morechoices'] = "他の選択";
 
 /* Original: 
 $_LANG['networkissuesaffecting'] = "Affecting";
 Translated: */
-$_LANG['networkissuesaffecting'] = "Affecting";
+$_LANG['networkissuesaffecting'] = "影響";
 
 /* Original: 
 $_LANG['networkissuesaffectingyourservers'] = "Please Note: Issues affecting servers you have accounts on will be highlighted with a gold background";
@@ -2465,52 +2465,52 @@ $_LANG['networkissuesaffectingyourservers'] = "Please Note: Issues affecting ser
 /* Original: 
 $_LANG['networkissuesdate'] = "Date";
 Translated: */
-$_LANG['networkissuesdate'] = "Date";
+$_LANG['networkissuesdate'] = "日付";
 
 /* Original: 
 $_LANG['networkissuesdescription'] = "Read about current and scheduled network outages";
 Translated: */
-$_LANG['networkissuesdescription'] = "Read about current and scheduled network outages";
+$_LANG['networkissuesdescription'] = "現在および予定されているネットワーク停止について";
 
 /* Original: 
 $_LANG['networkissueslastupdated'] = "Last Updated";
 Translated: */
-$_LANG['networkissueslastupdated'] = "Last Updated";
+$_LANG['networkissueslastupdated'] = "最終更新";
 
 /* Original: 
 $_LANG['networkissuesnonefound'] = "No network issues found";
 Translated: */
-$_LANG['networkissuesnonefound'] = "No network issues found";
+$_LANG['networkissuesnonefound'] = "ネットワークの問題は見つかりません";
 
 /* Original: 
 $_LANG['networkissuespriority'] = "Priority";
 Translated: */
-$_LANG['networkissuespriority'] = "Priority";
+$_LANG['networkissuespriority'] = "優先度";
 
 /* Original: 
 $_LANG['networkissuesprioritycritical'] = "Critical";
 Translated: */
-$_LANG['networkissuesprioritycritical'] = "Critical";
+$_LANG['networkissuesprioritycritical'] = "クリティカル";
 
 /* Original: 
 $_LANG['networkissuespriorityhigh'] = "High";
 Translated: */
-$_LANG['networkissuespriorityhigh'] = "High";
+$_LANG['networkissuespriorityhigh'] = "高い";
 
 /* Original: 
 $_LANG['networkissuesprioritylow'] = "Low";
 Translated: */
-$_LANG['networkissuesprioritylow'] = "Low";
+$_LANG['networkissuesprioritylow'] = "低い";
 
 /* Original: 
 $_LANG['networkissuesprioritymedium'] = "Medium";
 Translated: */
-$_LANG['networkissuesprioritymedium'] = "Medium";
+$_LANG['networkissuesprioritymedium'] = "中";
 
 /* Original: 
 $_LANG['networkissuesstatusinprogress'] = "In Progress";
 Translated: */
-$_LANG['networkissuesstatusinprogress'] = "In Progress";
+$_LANG['networkissuesstatusinprogress'] = "進行中";
 
 /* Original: 
 $_LANG['networkissuesstatusinvestigating'] = "Investigating";
@@ -2580,12 +2580,12 @@ $_LANG['no'] = "いいえ";
 /* Original: 
 $_LANG['nocarddetails'] = "No existing card details on record";
 Translated: */
-$_LANG['nocarddetails'] = "No existing card details on record";
+$_LANG['nocarddetails'] = "既存のカードの詳細は記録にありません";
 
 /* Original: 
 $_LANG['none'] = "None";
 Translated: */
-$_LANG['none'] = "None";
+$_LANG['none'] = "無し";
 
 /* Original: 
 $_LANG['norecordsfound'] = "No Records Found";
@@ -2595,27 +2595,27 @@ $_LANG['norecordsfound'] = "内容がありません";
 /* Original: 
 $_LANG['or'] = "or";
 Translated: */
-$_LANG['or'] = "or";
+$_LANG['or'] = "それとも";
 
 /* Original: 
 $_LANG['orderadditionalrequiredinfo'] = "Additional Required Information";
 Translated: */
-$_LANG['orderadditionalrequiredinfo'] = "Additional Required Information";
+$_LANG['orderadditionalrequiredinfo'] = "必要な追加情報";
 
 /* Original: 
 $_LANG['orderaddon'] = "Addon";
 Translated: */
-$_LANG['orderaddon'] = "Addon";
+$_LANG['orderaddon'] = "アドオン";
 
 /* Original: 
 $_LANG['orderaddondescription'] = "The following addons are available for this product. Choose the addons you wish to order below.";
 Translated: */
-$_LANG['orderaddondescription'] = "The following addons are available for this product. Choose the addons you wish to order below.";
+$_LANG['orderaddondescription'] = "この製品には以下のアドオンがあります。 注文したいアドオンを選択してください。";
 
 /* Original: 
 $_LANG['orderavailable'] = "Available";
 Translated: */
-$_LANG['orderavailable'] = "Available";
+$_LANG['orderavailable'] = "利用可能";
 
 /* Original: 
 $_LANG['orderavailableaddons'] = "Click to view available addons";
@@ -2635,27 +2635,27 @@ $_LANG['ordercategories'] = "ストア";
 /* Original: 
 $_LANG['orderchangeaddons'] = "Change Addons";
 Translated: */
-$_LANG['orderchangeaddons'] = "Change Addons";
+$_LANG['orderchangeaddons'] = "アドオンを変更";
 
 /* Original: 
 $_LANG['orderchangeconfig'] = "Change Configurable Options";
 Translated: */
-$_LANG['orderchangeconfig'] = "Change Configurable Options";
+$_LANG['orderchangeconfig'] = "設定可能なオプションを変更する";
 
 /* Original: 
 $_LANG['orderchangedomain'] = "Change Domain";
 Translated: */
-$_LANG['orderchangedomain'] = "Change Domain";
+$_LANG['orderchangedomain'] = "ドメインを変更";
 
 /* Original: 
 $_LANG['orderchangenameservers'] = "Change Nameservers Only";
 Translated: */
-$_LANG['orderchangenameservers'] = "Change Nameservers Only";
+$_LANG['orderchangenameservers'] = "ネームサーバーのみを変更する";
 
 /* Original: 
 $_LANG['orderchangeproduct'] = "Change Product";
 Translated: */
-$_LANG['orderchangeproduct'] = "Change Product";
+$_LANG['orderchangeproduct'] = "サービスを変更する";
 
 /* Original: 
 $_LANG['ordercheckout'] = "Checkout";
@@ -2675,17 +2675,17 @@ $_LANG['orderchooseapackage'] = "プランを選択";
 /* Original: 
 $_LANG['ordercodenotfound'] = "The promotion code entered does not exist";
 Translated: */
-$_LANG['ordercodenotfound'] = "The promotion code entered does not exist";
+$_LANG['ordercodenotfound'] = "入力されたプロモーションコードは存在しません";
 
 /* Original: 
 $_LANG['ordercompletebutnotpaid'] = "Attention! Your order has been completed but you have not yet paid for it so it will not be activated.<br />Click on the link below to go to your invoice to make payment.";
 Translated: */
-$_LANG['ordercompletebutnotpaid'] = "Attention! Your order has been completed but you have not yet paid for it so it will not be activated.<br />Click on the link below to go to your invoice to make payment.";
+$_LANG['ordercompletebutnotpaid'] = "注意！ ご注文は完了しましたが、まだお支払いを行っていないため有効になりません。<br />下のリンクをクリックして請求書に移動してお支払いください。";
 
 /* Original: 
 $_LANG['orderconfigpackage'] = "Configurable Options";
 Translated: */
-$_LANG['orderconfigpackage'] = "Configurable Options";
+$_LANG['orderconfigpackage'] = "設定可能なオプション";
 
 /* Original: 
 $_LANG['orderconfigure'] = "Configure";
@@ -2695,32 +2695,32 @@ $_LANG['orderconfigure'] = "お申し込み内容変更";
 /* Original: 
 $_LANG['orderconfirmation'] = "Order Confirmation";
 Translated: */
-$_LANG['orderconfirmation'] = "Order Confirmation";
+$_LANG['orderconfirmation'] = "注文確認";
 
 /* Original: 
 $_LANG['orderconfirmorder'] = "Confirm Order";
 Translated: */
-$_LANG['orderconfirmorder'] = "Confirm Order";
+$_LANG['orderconfirmorder'] = "注文を確認する";
 
 /* Original: 
 $_LANG['ordercontinuebutton'] = "Click to Continue >>";
 Translated: */
-$_LANG['ordercontinuebutton'] = "Click to Continue >>";
+$_LANG['ordercontinuebutton'] = "続けるにはクリックしてください >>";
 
 /* Original: 
 $_LANG['orderdesc'] = "Description";
 Translated: */
-$_LANG['orderdesc'] = "Description";
+$_LANG['orderdesc'] = "説明";
 
 /* Original: 
 $_LANG['orderdescription'] = "Place a new order with us";
 Translated: */
-$_LANG['orderdescription'] = "Place a new order with us";
+$_LANG['orderdescription'] = "新しい注文をする";
 
 /* Original: 
 $_LANG['orderdiscount'] = "Discount";
 Translated: */
-$_LANG['orderdiscount'] = "Discount";
+$_LANG['orderdiscount'] = "ディスカウント";
 
 /* Original: 
 $_LANG['orderdomain'] = "Domain";
@@ -2730,32 +2730,32 @@ $_LANG['orderdomain'] = "ドメイン";
 /* Original: 
 $_LANG['orderdomainoption1part1'] = "I want";
 Translated: */
-$_LANG['orderdomainoption1part1'] = "I want";
+$_LANG['orderdomainoption1part1'] = "が欲しいです";
 
 /* Original: 
 $_LANG['orderdomainoption1part2'] = "to register a new domain for me.";
 Translated: */
-$_LANG['orderdomainoption1part2'] = "to register a new domain for me.";
+$_LANG['orderdomainoption1part2'] = "新しいドメインを登録します。";
 
 /* Original: 
 $_LANG['orderdomainoption2'] = "I will update my nameservers on an existing domain Or I will register a new domain.";
 Translated: */
-$_LANG['orderdomainoption2'] = "I will update my nameservers on an existing domain Or I will register a new domain.";
+$_LANG['orderdomainoption2'] = "既存のドメインのネームサーバーを更新するか、または新しいドメインを登録します。";
 
 /* Original: 
 $_LANG['orderdomainoption3'] = "I want to transfer my domain to";
 Translated: */
-$_LANG['orderdomainoption3'] = "I want to transfer my domain to";
+$_LANG['orderdomainoption3'] = "へドメインをに移行したい";
 
 /* Original: 
 $_LANG['orderdomainoption4'] = "I want to use a free subdomain.";
 Translated: */
-$_LANG['orderdomainoption4'] = "I want to use a free subdomain.";
+$_LANG['orderdomainoption4'] = "無料のサブドメインを使いたい。";
 
 /* Original: 
 $_LANG['orderdomainoptions'] = "Domain Options";
 Translated: */
-$_LANG['orderdomainoptions'] = "Domain Options";
+$_LANG['orderdomainoptions'] = "ドメインオプション";
 
 /* Original: 
 $_LANG['orderdomainregistration'] = "Domain Registration";
@@ -2775,132 +2775,132 @@ $_LANG['orderdomaintransfer'] = "ドメイン移管";
 /* Original: 
 $_LANG['orderdontusepromo'] = "Don't use Promotional Code";
 Translated: */
-$_LANG['orderdontusepromo'] = "Don't use Promotional Code";
+$_LANG['orderdontusepromo'] = "プロモーションコードを使用しない";
 
 /* Original: 
 $_LANG['ordererroraccepttos'] = "You must accept our Terms of Service";
 Translated: */
-$_LANG['ordererroraccepttos'] = "You must accept our Terms of Service";
+$_LANG['ordererroraccepttos'] = "利用規約に同意しなければなりません";
 
 /* Original: 
 $_LANG['ordererrordomainalreadyexists'] = "The domain you entered is already registered with us - you will need to cancel it prior to placing a new order";
 Translated: */
-$_LANG['ordererrordomainalreadyexists'] = "The domain you entered is already registered with us - you will need to cancel it prior to placing a new order";
+$_LANG['ordererrordomainalreadyexists'] = "入力したドメインは既に登録されています - 新しい注文をする前にキャンセルください。";
 
 /* Original: 
 $_LANG['ordererrordomaininvalid'] = "The domain you entered is not valid";
 Translated: */
-$_LANG['ordererrordomaininvalid'] = "The domain you entered is not valid";
+$_LANG['ordererrordomaininvalid'] = "入力したドメインは無効です";
 
 /* Original: 
 $_LANG['ordererrordomainnotld'] = "You must enter the domain TLD";
 Translated: */
-$_LANG['ordererrordomainnotld'] = "You must enter the domain TLD";
+$_LANG['ordererrordomainnotld'] = "ドメインTLDを入力してください";
 
 /* Original: 
 $_LANG['ordererrordomainnotregistered'] = "You cannot transfer a domain that isn't registered";
 Translated: */
-$_LANG['ordererrordomainnotregistered'] = "You cannot transfer a domain that isn't registered";
+$_LANG['ordererrordomainnotregistered'] = "登録されていないドメインを移管することはできません";
 
 /* Original: 
 $_LANG['ordererrordomainregistered'] = "The domain you entered is already registered";
 Translated: */
-$_LANG['ordererrordomainregistered'] = "The domain you entered is already registered";
+$_LANG['ordererrordomainregistered'] = "入力したドメインは既に登録されています";
 
 /* Original: 
 $_LANG['ordererrornameserver1'] = "You must enter nameserver 1";
 Translated: */
-$_LANG['ordererrornameserver1'] = "You must enter nameserver 1";
+$_LANG['ordererrornameserver1'] = "ネームサーバー1を入力してください";
 
 /* Original: 
 $_LANG['ordererrornameserver2'] = "You must enter nameserver 2";
 Translated: */
-$_LANG['ordererrornameserver2'] = "You must enter nameserver 2";
+$_LANG['ordererrornameserver2'] = "ネームサーバー2を入力してください";
 
 /* Original: 
 $_LANG['ordererrornodomain'] = "You did not enter a domain name";
 Translated: */
-$_LANG['ordererrornodomain'] = "You did not enter a domain name";
+$_LANG['ordererrornodomain'] = "ドメイン名を入力していません";
 
 /* Original: 
 $_LANG['ordererrorpassword'] = "You did not enter a password";
 Translated: */
-$_LANG['ordererrorpassword'] = "You did not enter a password";
+$_LANG['ordererrorpassword'] = "パスワードを入力していません";
 
 /* Original: 
 $_LANG['ordererrorserverhostnameinuse'] = "The hostname you entered is already in use. Please choose another.";
 Translated: */
-$_LANG['ordererrorserverhostnameinuse'] = "The hostname you entered is already in use. Please choose another.";
+$_LANG['ordererrorserverhostnameinuse'] = "入力したホスト名はすでに使用されています。 別のものを選択してください。";
 
 /* Original: 
 $_LANG['ordererrorservernohostname'] = "You must enter a hostname for your server";
 Translated: */
-$_LANG['ordererrorservernohostname'] = "You must enter a hostname for your server";
+$_LANG['ordererrorservernohostname'] = "サーバーのホスト名を入力してください";
 
 /* Original: 
 $_LANG['ordererrorservernonameservers'] = "You must enter a prefix for both nameservers";
 Translated: */
-$_LANG['ordererrorservernonameservers'] = "You must enter a prefix for both nameservers";
+$_LANG['ordererrorservernonameservers'] = "両方のネームサーバーにはプレフィックスを入力する必要があります";
 
 /* Original: 
 $_LANG['ordererrorservernorootpw'] = "You must enter your desired root password";
 Translated: */
-$_LANG['ordererrorservernorootpw'] = "You must enter your desired root password";
+$_LANG['ordererrorservernorootpw'] = "ご希望のrootパスワードを入力してください";
 
 /* Original: 
 $_LANG['ordererrorsubdomaintaken'] = "The subdomain you entered is already taken - please try again";
 Translated: */
-$_LANG['ordererrorsubdomaintaken'] = "The subdomain you entered is already taken - please try again";
+$_LANG['ordererrorsubdomaintaken'] = "入力したサブドメインは既に使用されています - もう一度お試しください";
 
 /* Original: 
 $_LANG['ordererrortransfersecret'] = "You must enter the transfer secret";
 Translated: */
-$_LANG['ordererrortransfersecret'] = "You must enter the transfer secret";
+$_LANG['ordererrortransfersecret'] = "トランスファーシークレットを入力してください";
 
 /* Original: 
 $_LANG['ordererroruserexists'] = "A user already exists with that email address";
 Translated: */
-$_LANG['ordererroruserexists'] = "A user already exists with that email address";
+$_LANG['ordererroruserexists'] = "そのメールアドレスを持つユーザーは既に存在します";
 
 /* Original: 
 $_LANG['orderexistinguser'] = "I am an existing customer and wish to add this order to my account";
 Translated: */
-$_LANG['orderexistinguser'] = "I am an existing customer and wish to add this order to my account";
+$_LANG['orderexistinguser'] = "私は既存の客で、この注文をアカウントに追加したいです";
 
 /* Original: 
 $_LANG['orderfailed'] = "Order Failed";
 Translated: */
-$_LANG['orderfailed'] = "Order Failed";
+$_LANG['orderfailed'] = "注文失敗";
 
 /* Original: 
 $_LANG['orderfinalinstructions'] = "If you have any questions about your order, please open a support ticket from your client area and quote your order number.";
 Translated: */
-$_LANG['orderfinalinstructions'] = "If you have any questions about your order, please open a support ticket from your client area and quote your order number.";
+$_LANG['orderfinalinstructions'] = "ご注文についてご質問がある場合は、クライアントエリアからサポートチケットを開いて注文番号をお伝えください。";
 
 /* Original: 
 $_LANG['orderfree'] = "FREE!";
 Translated: */
-$_LANG['orderfree'] = "FREE!";
+$_LANG['orderfree'] = "無料!";
 
 /* Original: 
 $_LANG['orderfreedomainappliesto'] = "applies to the following extensions only";
 Translated: */
-$_LANG['orderfreedomainappliesto'] = "applies to the following extensions only";
+$_LANG['orderfreedomainappliesto'] = "次の拡張子にのみ適用されます";
 
 /* Original: 
 $_LANG['orderfreedomaindescription'] = "on selected payment terms";
 Translated: */
-$_LANG['orderfreedomaindescription'] = "on selected payment terms";
+$_LANG['orderfreedomaindescription'] = "選択した支払い条件";
 
 /* Original: 
 $_LANG['orderfreedomainonly'] = "Free Domain";
 Translated: */
-$_LANG['orderfreedomainonly'] = "Free Domain";
+$_LANG['orderfreedomainonly'] = "無料ドメイン";
 
 /* Original: 
 $_LANG['orderfreedomainregistration'] = "Free Domain Registration";
 Translated: */
-$_LANG['orderfreedomainregistration'] = "Free Domain Registration";
+$_LANG['orderfreedomainregistration'] = "無料ドメイン登録";
 
 /* Original: 
 $_LANG['ordergotoclientarea'] = "Click here to go to your Client Area";
@@ -2910,42 +2910,42 @@ $_LANG['ordergotoclientarea'] = "会員ページへ移動するにはここを�
 /* Original: 
 $_LANG['orderinvalidcodeforbillingcycle'] = "This code does not apply to the selected billing cycle";
 Translated: */
-$_LANG['orderinvalidcodeforbillingcycle'] = "This code does not apply to the selected billing cycle";
+$_LANG['orderinvalidcodeforbillingcycle'] = "このコードは選択した請求サイクルには適用されません";
 
 /* Original: 
 $_LANG['orderlogininfo'] = "Login Information";
 Translated: */
-$_LANG['orderlogininfo'] = "Login Information";
+$_LANG['orderlogininfo'] = "ログイン情報";
 
 /* Original: 
 $_LANG['orderlogininfopart1'] = "Please enter the password that you wish to use to login to your";
 Translated: */
-$_LANG['orderlogininfopart1'] = "Please enter the password that you wish to use to login to your";
+$_LANG['orderlogininfopart1'] = "ログインに使用するパスワードを入力してください";
 
 /* Original: 
 $_LANG['orderlogininfopart2'] = "Client Area. This will differ from your website control panel username &amp; password.";
 Translated: */
-$_LANG['orderlogininfopart2'] = "Client Area. This will differ from your website control panel username &amp; password.";
+$_LANG['orderlogininfopart2'] = "クライアントエリア。 ウェブサイトコントロールパネルのユーザー名&amp;パスワードとは異なります。 ";
 
 /* Original: 
 $_LANG['ordernewuser'] = "I am a new customer and would like to create an account";
 Translated: */
-$_LANG['ordernewuser'] = "I am a new customer and would like to create an account";
+$_LANG['ordernewuser'] = "私は新規の客で、アカウントを作成したいです。";
 
 /* Original: 
 $_LANG['ordernoproducts'] = "No Products Found";
 Translated: */
-$_LANG['ordernoproducts'] = "No Products Found";
+$_LANG['ordernoproducts'] = "商品が見つかりません";
 
 /* Original: 
 $_LANG['ordernotes'] = "Notes / Additional Information";
 Translated: */
-$_LANG['ordernotes'] = "Notes / Additional Information";
+$_LANG['ordernotes'] = "メモ/追加情報";
 
 /* Original: 
 $_LANG['ordernotesdescription'] = "You can enter any additional notes or information you want included with your order here...";
 Translated: */
-$_LANG['ordernotesdescription'] = "You can enter any additional notes or information you want included with your order here...";
+$_LANG['ordernotesdescription'] = "ここにあなたのご注文に含みたいどんな追加のメモまたは情報も入力できます...";
 
 /* Original: 
 $_LANG['ordernowbutton'] = "Order Now";
@@ -2955,7 +2955,7 @@ $_LANG['ordernowbutton'] = "お申し込み";
 /* Original: 
 $_LANG['ordernumberis'] = "Your Order Number is:";
 Translated: */
-$_LANG['ordernumberis'] = "Your Order Number is:";
+$_LANG['ordernumberis'] = "あなたの注文番号は:";
 
 /* Original: 
 $_LANG['orderpaymentmethod'] = "Payment Method";
@@ -2995,7 +2995,7 @@ $_LANG['orderpaymenttermannually'] = "年払い";
 /* Original: 
 $_LANG['orderpaymenttermbiennially'] = "Biennially";
 Translated: */
-$_LANG['orderpaymenttermbiennially'] = "Biennially";
+$_LANG['orderpaymenttermbiennially'] = "一年おき（隔年）";
 
 /* Original: 
 $_LANG['orderpaymenttermfreeaccount'] = "Free Account";
@@ -3035,27 +3035,27 @@ $_LANG['orderproduct'] = "サービス";
 /* Original: 
 $_LANG['orderprogress'] = "Progress";
 Translated: */
-$_LANG['orderprogress'] = "Progress";
+$_LANG['orderprogress'] = "進捗";
 
 /* Original: 
 $_LANG['orderpromoexpired'] = "The promotion code entered has expired";
 Translated: */
-$_LANG['orderpromoexpired'] = "The promotion code entered has expired";
+$_LANG['orderpromoexpired'] = "入力されたクーポンコードは期限切れです";
 
 /* Original: 
 $_LANG['orderpromoinvalid'] = "The promotion code entered does not apply to any items in your order";
 Translated: */
-$_LANG['orderpromoinvalid'] = "The promotion code entered does not apply to any items in your order";
+$_LANG['orderpromoinvalid'] = "入力されたクーポンコードは、ご注文の商品には適用されません";
 
 /* Original: 
 $_LANG['orderpromomaxusesreached'] = "The promotion code entered has already been used";
 Translated: */
-$_LANG['orderpromomaxusesreached'] = "The promotion code entered has already been used";
+$_LANG['orderpromomaxusesreached'] = "入力されたクーポンコードは既に使用されています";
 
 /* Original: 
 $_LANG['orderpromotioncode'] = "Promotional Code";
 Translated: */
-$_LANG['orderpromotioncode'] = "Promotional Code";
+$_LANG['orderpromotioncode'] = "クーポンコード";
 
 /* Original: 
 $_LANG['orderpromovalidatebutton'] = "Validate Code";
@@ -3075,7 +3075,7 @@ $_LANG['orderprorata'] = "Pro Rata";
 /* Original: 
 $_LANG['orderreceived'] = "Thank you for your order. You will receive a confirmation email shortly.";
 Translated: */
-$_LANG['orderreceived'] = "Thank you for your order. You will receive a confirmation email shortly.";
+$_LANG['orderreceived'] = "注文いただきありがとうございます。 間もなく確認メールが届きます。";
 
 /* Original: 
 $_LANG['orderregisterdomain'] = "Register a New Domain";
@@ -3090,57 +3090,57 @@ $_LANG['orderregperiod'] = "登録期限";
 /* Original: 
 $_LANG['ordersecure'] = "This order form is provided in a secure environment and to help protect against fraud your current IP address";
 Translated: */
-$_LANG['ordersecure'] = "This order form is provided in a secure environment and to help protect against fraud your current IP address";
+$_LANG['ordersecure'] = "この注文フォームは安全な環境で提供されており、現在のIPアドレスを不正使用から保護するのに役立ちます。";
 
 /* Original: 
 $_LANG['ordersecure2'] = "is being logged.";
 Translated: */
-$_LANG['ordersecure2'] = "is being logged.";
+$_LANG['ordersecure2'] = "ログに記録されています。";
 
 /* Original: 
 $_LANG['orderserverhostname'] = "Server Hostname";
 Translated: */
-$_LANG['orderserverhostname'] = "Server Hostname";
+$_LANG['orderserverhostname'] = "サーバのホスト名";
 
 /* Original: 
 $_LANG['orderservernameservers'] = "Nameservers";
 Translated: */
-$_LANG['orderservernameservers'] = "Nameservers";
+$_LANG['orderservernameservers'] = "ネームサーバ";
 
 /* Original: 
 $_LANG['orderservernameserversdescription'] = "The prefixes you enter here will determine the default nameservers for the server eg. ns1.example.com and ns2.example.com";
 Translated: */
-$_LANG['orderservernameserversdescription'] = "The prefixes you enter here will determine the default nameservers for the server eg. ns1.example.com and ns2.example.com";
+$_LANG['orderservernameserversdescription'] = "ここに入力したプレフィックス(接頭辞)によって、サーバのデフォルトネームサーバが決まります。 例: ns1.example.comとns2.example.com";
 
 /* Original: 
 $_LANG['orderservernameserversprefix1'] = "Prefix 1";
 Translated: */
-$_LANG['orderservernameserversprefix1'] = "Prefix 1";
+$_LANG['orderservernameserversprefix1'] = "プレフィックス 1";
 
 /* Original: 
 $_LANG['orderservernameserversprefix2'] = "Prefix 2";
 Translated: */
-$_LANG['orderservernameserversprefix2'] = "Prefix 2";
+$_LANG['orderservernameserversprefix2'] = "プレフィックス 2";
 
 /* Original: 
 $_LANG['orderserverrootpassword'] = "Root Password";
 Translated: */
-$_LANG['orderserverrootpassword'] = "Root Password";
+$_LANG['orderserverrootpassword'] = "ルートパスワード";
 
 /* Original: 
 $_LANG['ordersetupfee'] = "Setup Fee";
 Translated: */
-$_LANG['ordersetupfee'] = "Setup Fee";
+$_LANG['ordersetupfee'] = "セットアップ費";
 
 /* Original: 
 $_LANG['orderstartover'] = "Start Over";
 Translated: */
-$_LANG['orderstartover'] = "Start Over";
+$_LANG['orderstartover'] = "やり直す";
 
 /* Original: 
 $_LANG['ordersubdomaininuse'] = "The subdomain you entered is already in use";
 Translated: */
-$_LANG['ordersubdomaininuse'] = "The subdomain you entered is already in use";
+$_LANG['ordersubdomaininuse'] = "入力したサブドメインは既に使用されています";
 
 /* Original: 
 $_LANG['ordersubtotal'] = "Subtotal";
@@ -3155,27 +3155,27 @@ $_LANG['ordersummary'] = "カート内の合計";
 /* Original: 
 $_LANG['ordertaxcalculations'] = "Tax Calculations";
 Translated: */
-$_LANG['ordertaxcalculations'] = "Tax Calculations";
+$_LANG['ordertaxcalculations'] = "税計算";
 
 /* Original: 
 $_LANG['ordertaxstaterequired'] = "You must enter your state for tax calculations to take place";
 Translated: */
-$_LANG['ordertaxstaterequired'] = "You must enter your state for tax calculations to take place";
+$_LANG['ordertaxstaterequired'] = "税計算を行うには、州を入力する必要があります";
 
 /* Original: 
 $_LANG['ordertitle'] = "Order";
 Translated: */
-$_LANG['ordertitle'] = "Order";
+$_LANG['ordertitle'] = "注文";
 
 /* Original: 
 $_LANG['ordertos'] = "Terms of Service";
 Translated: */
-$_LANG['ordertos'] = "Terms of Service";
+$_LANG['ordertos'] = "利用規約";
 
 /* Original: 
 $_LANG['ordertosagreement'] = "I have read and agree to the";
 Translated: */
-$_LANG['ordertosagreement'] = "I have read and agree to the";
+$_LANG['ordertosagreement'] = "読んで同意します";
 
 /* Original: 
 $_LANG['ordertotalduetoday'] = "Total Due Today";
@@ -3185,27 +3185,27 @@ $_LANG['ordertotalduetoday'] = "今回のお支払い金額";
 /* Original: 
 $_LANG['ordertotalrecurring'] = "Total Recurring";
 Translated: */
-$_LANG['ordertotalrecurring'] = "Total Recurring";
+$_LANG['ordertotalrecurring'] = "定期的な合計";
 
 /* Original: 
 $_LANG['ordertransferdomain'] = "Transfer an Existing Domain Name";
 Translated: */
-$_LANG['ordertransferdomain'] = "Transfer an Existing Domain Name";
+$_LANG['ordertransferdomain'] = "既存のドメイン名を移管する";
 
 /* Original: 
 $_LANG['ordertransfersecret'] = "Transfer Secret";
 Translated: */
-$_LANG['ordertransfersecret'] = "Transfer Secret";
+$_LANG['ordertransfersecret'] = "移管シークレット";
 
 /* Original: 
 $_LANG['ordertransfersecretexplanation'] = "Please enter the Domain Transfer Secret which can be obtained from the current Registrar of the Domain Name. ";
 Translated: */
-$_LANG['ordertransfersecretexplanation'] = "Please enter the Domain Transfer Secret which can be obtained from the current Registrar of the Domain Name. ";
+$_LANG['ordertransfersecretexplanation'] = "ドメイン名の現在の登録機関から取得したドメイン移管シークレットを入力してください。";
 
 /* Original: 
 $_LANG['orderusesubdomain'] = "Use Subdomain";
 Translated: */
-$_LANG['orderusesubdomain'] = "Use Subdomain";
+$_LANG['orderusesubdomain'] = "サブドメインを使用";
 
 /* Original: 
 $_LANG['orderyears'] = "Year/s";
@@ -3215,17 +3215,17 @@ $_LANG['orderyears'] = "年";
 /* Original: 
 $_LANG['orderyourinformation'] = "Your Information";
 Translated: */
-$_LANG['orderyourinformation'] = "Your Information";
+$_LANG['orderyourinformation'] = "あなたの情報";
 
 /* Original: 
 $_LANG['orderyourorder'] = "Your Order";
 Translated: */
-$_LANG['orderyourorder'] = "Your Order";
+$_LANG['orderyourorder'] = "ご注文";
 
 /* Original: 
 $_LANG['organizationname'] = "Organization Name";
 Translated: */
-$_LANG['organizationname'] = "Organization Name";
+$_LANG['organizationname'] = "組織名";
 
 /* Original: 
 $_LANG['outofstock'] = "Out of Stock";
@@ -3235,22 +3235,22 @@ $_LANG['outofstock'] = "在庫なし";
 /* Original: 
 $_LANG['outofstockdescription'] = "We are currently out of stock on this item so orders for it have been suspended until more stock is available. For further information, please contact us.";
 Translated: */
-$_LANG['outofstockdescription'] = "We are currently out of stock on this item so orders for it have been suspended until more stock is available. For further information, please contact us.";
+$_LANG['outofstockdescription'] = "現在この商品は在庫切れのため、入荷するまで注文ができません。 詳しくはお問い合わせください。";
 
 /* Original: 
 $_LANG['page'] = "Page";
 Translated: */
-$_LANG['page'] = "Page";
+$_LANG['page'] = "ページ";
 
 /* Original: 
 $_LANG['pageof'] = "of";
 Translated: */
-$_LANG['pageof'] = "of";
+$_LANG['pageof'] = "の";
 
 /* Original: 
 $_LANG['please'] = "Please";
 Translated: */
-$_LANG['please'] = "Please";
+$_LANG['please'] = "お願いします";
 
 /* Original: 
 $_LANG['pleasewait'] = "Please Wait...";
@@ -3260,7 +3260,7 @@ $_LANG['pleasewait'] = "お待ちください…";
 /* Original: 
 $_LANG['presalescontactdescription'] = "Place any pre-sales enquiries here";
 Translated: */
-$_LANG['presalescontactdescription'] = "Place any pre-sales enquiries here";
+$_LANG['presalescontactdescription'] = "プリセールスに関するお問い合わせはこちら";
 
 /* Original: 
 $_LANG['previouspage'] = "Prev Page";
@@ -3270,52 +3270,52 @@ $_LANG['previouspage'] = "前のページ";
 /* Original: 
 $_LANG['proformainvoicenumber'] = "Proforma Invoice #";
 Translated: */
-$_LANG['proformainvoicenumber'] = "Proforma Invoice #";
+$_LANG['proformainvoicenumber'] = "プロフォーマインボイス ＃";
 
 /* Original: 
 $_LANG['promoexistingclient'] = "You must have an active product/service to use this code";
 Translated: */
-$_LANG['promoexistingclient'] = "You must have an active product/service to use this code";
+$_LANG['promoexistingclient'] = "このコードを使用するには有効な製品/サービスが必要です";
 
 /* Original: 
 $_LANG['promoonceperclient'] = "This code can only be used once per client";
 Translated: */
-$_LANG['promoonceperclient'] = "This code can only be used once per client";
+$_LANG['promoonceperclient'] = "このコードはクライアントごとに1回しか使用できません";
 
 /* Original: 
 $_LANG['pwstrengthfail'] = "The password you entered is not strong enough - please enter a more complex password";
 Translated: */
-$_LANG['pwstrengthfail'] = "The password you entered is not strong enough - please enter a more complex password";
+$_LANG['pwstrengthfail'] = "入力したパスワードは十分な強度がありません - より複雑なパスワードを入力してください";
 
 /* Original: 
 $_LANG['pwdoesnotmatch'] = "The passwords entered do not match";
 Translated: */
-$_LANG['pwdoesnotmatch'] = "The passwords entered do not match";
+$_LANG['pwdoesnotmatch'] = "入力したパスワードが一致しません";
 
 /* Original: 
 $_LANG['quicknav'] = "Quick Navigation";
 Translated: */
-$_LANG['quicknav'] = "Quick Navigation";
+$_LANG['quicknav'] = "クイックナビゲーション";
 
 /* Original: 
 $_LANG['recordsfound'] = "Records Found";
 Translated: */
-$_LANG['recordsfound'] = "Records Found";
+$_LANG['recordsfound'] = "見つかったレコード";
 
 /* Original: 
 $_LANG['recurring'] = "Recurring";
 Translated: */
-$_LANG['recurring'] = "Recurring";
+$_LANG['recurring'] = "繰り返し";
 
 /* Original: 
 $_LANG['recurringamount'] = "Recurring Amount";
 Translated: */
-$_LANG['recurringamount'] = "Recurring Amount";
+$_LANG['recurringamount'] = "定期的な金額";
 
 /* Original: 
 $_LANG['every'] = "Every";
 Translated: */
-$_LANG['every'] = "Every";
+$_LANG['every'] = "すべての";
 
 /* Original: 
 $_LANG['registerdomain'] = "Register Domain";
@@ -3325,142 +3325,142 @@ $_LANG['registerdomain'] = "ドメイン取得";
 /* Original: 
 $_LANG['registerdomaindesc'] = "Type in the domain you wish to register below to check for availability.";
 Translated: */
-$_LANG['registerdomaindesc'] = "Type in the domain you wish to register below to check for availability.";
+$_LANG['registerdomaindesc'] = "利用可能かを確認するには、以下に登録するドメインを入力してください。";
 
 /* Original: 
 $_LANG['registerdomainname'] = "Register a Domain Name";
 Translated: */
-$_LANG['registerdomainname'] = "Register a Domain Name";
+$_LANG['registerdomainname'] = "ドメイン名を登録する";
 
 /* Original: 
 $_LANG['relatedservice'] = "Related Service";
 Translated: */
-$_LANG['relatedservice'] = "Related Service";
+$_LANG['relatedservice'] = "関連サービス";
 
 /* Original: 
 $_LANG['rssfeed'] = "Feed";
 Translated: */
-$_LANG['rssfeed'] = "Feed";
+$_LANG['rssfeed'] = "フィード";
 
 /* Original: 
 $_LANG['securityanswerrequired'] = "You are required to enter a security answer";
 Translated: */
-$_LANG['securityanswerrequired'] = "You are required to enter a security answer";
+$_LANG['securityanswerrequired'] = "セキュリティの答えを入力してください";
 
 /* Original: 
 $_LANG['securitybothnotmatch'] = "Your answer and confirm answer do not match";
 Translated: */
-$_LANG['securitybothnotmatch'] = "Your answer and confirm answer do not match";
+$_LANG['securitybothnotmatch'] = "あなたの答えと確認の答えが一致しません";
 
 /* Original: 
 $_LANG['securitycurrentincorrect'] = "Your current question and answer is incorrect";
 Translated: */
-$_LANG['securitycurrentincorrect'] = "Your current question and answer is incorrect";
+$_LANG['securitycurrentincorrect'] = "現在の質問と答えは間違っています";
 
 /* Original: 
 $_LANG['serverchangepassword'] = "Change Password";
 Translated: */
-$_LANG['serverchangepassword'] = "Change Password";
+$_LANG['serverchangepassword'] = "パスワードを変更する";
 
 /* Original: 
 $_LANG['serverchangepasswordintro'] = "From here you can change the password of the product/service (note: this does not affect your password for our client area)";
 Translated: */
-$_LANG['serverchangepasswordintro'] = "From here you can change the password of the product/service (note: this does not affect your password for our client area)";
+$_LANG['serverchangepasswordintro'] = "ここからあなたは製品/サービスのパスワードを変更することができます（注：これはクライアントエリアのパスワードには影響しません）";
 
 /* Original: 
 $_LANG['serverchangepasswordconfirm'] = "Confirm Password";
 Translated: */
-$_LANG['serverchangepasswordconfirm'] = "Confirm Password";
+$_LANG['serverchangepasswordconfirm'] = "パスワードを認証する";
 
 /* Original: 
 $_LANG['serverchangepasswordenter'] = "Enter New Password";
 Translated: */
-$_LANG['serverchangepasswordenter'] = "Enter New Password";
+$_LANG['serverchangepasswordenter'] = "新しいパスワードを入力してください";
 
 /* Original: 
 $_LANG['serverchangepasswordfailed'] = "Password Change Failed!";
 Translated: */
-$_LANG['serverchangepasswordfailed'] = "Password Change Failed!";
+$_LANG['serverchangepasswordfailed'] = "パスワード変更に失敗しました！";
 
 /* Original: 
 $_LANG['serverchangepasswordsuccessful'] = "Password Changed Successfully!";
 Translated: */
-$_LANG['serverchangepasswordsuccessful'] = "Password Changed Successfully!";
+$_LANG['serverchangepasswordsuccessful'] = "パスワードは正常に変更されました！";
 
 /* Original: 
 $_LANG['serverchangepasswordupdate'] = "Update";
 Translated: */
-$_LANG['serverchangepasswordupdate'] = "Update";
+$_LANG['serverchangepasswordupdate'] = "更新";
 
 /* Original: 
 $_LANG['serverhostname'] = "Hostname";
 Translated: */
-$_LANG['serverhostname'] = "Hostname";
+$_LANG['serverhostname'] = "ホスト名";
 
 /* Original: 
 $_LANG['serverlogindetails'] = "Login Details";
 Translated: */
-$_LANG['serverlogindetails'] = "Login Details";
+$_LANG['serverlogindetails'] = "ログインの詳細";
 
 /* Original: 
-$_LANG['servername'] = "Server";
-Translated: */
 $_LANG['servername'] = "Server Name";
+Translated: */
+$_LANG['servername'] = "サーバ名";
 
 /* Original: 
 $_LANG['serverns1prefix'] = "NS1 Prefix";
 Translated: */
-$_LANG['serverns1prefix'] = "NS1 Prefix";
+$_LANG['serverns1prefix'] = "NS1プレフィックス";
 
 /* Original: 
 $_LANG['serverns2prefix'] = "NS2 Prefix";
 Translated: */
-$_LANG['serverns2prefix'] = "NS2 Prefix";
+$_LANG['serverns2prefix'] = "NS2プレフィックス";
 
 /* Original: 
 $_LANG['serverpassword'] = "Password";
 Translated: */
-$_LANG['serverpassword'] = "Password";
+$_LANG['serverpassword'] = "パスワード";
 
 /* Original: 
 $_LANG['serverrootpw'] = "Root Password";
 Translated: */
-$_LANG['serverrootpw'] = "Root Password";
+$_LANG['serverrootpw'] = "ルートのパスワード";
 
 /* Original: 
 $_LANG['serverstatusdescription'] = "View live status info for our servers";
 Translated: */
-$_LANG['serverstatusdescription'] = "View live status info for our servers";
+$_LANG['serverstatusdescription'] = "サーバーのライブステータス情報を見る";
 
 /* Original: 
 $_LANG['serverstatusnoservers'] = "No Servers are currently being monitored";
 Translated: */
-$_LANG['serverstatusnoservers'] = "No Servers are currently being monitored";
+$_LANG['serverstatusnoservers'] = "現在監視されているサーバーはありません";
 
 /* Original: 
 $_LANG['serverstatusnotavailable'] = "Not Available";
 Translated: */
-$_LANG['serverstatusnotavailable'] = "Not Available";
+$_LANG['serverstatusnotavailable'] = "利用不可";
 
 /* Original: 
 $_LANG['serverstatusoffline'] = "Offline";
 Translated: */
-$_LANG['serverstatusoffline'] = "Offline";
+$_LANG['serverstatusoffline'] = "オフライン";
 
 /* Original: 
 $_LANG['serverstatusonline'] = "Online";
 Translated: */
-$_LANG['serverstatusonline'] = "Online";
+$_LANG['serverstatusonline'] = "オンライン";
 
 /* Original: 
 $_LANG['serverstatusphpinfo'] = "PHP Info";
 Translated: */
-$_LANG['serverstatusphpinfo'] = "PHP Info";
+$_LANG['serverstatusphpinfo'] = "PHP 情報";
 
 /* Original: 
 $_LANG['serverstatusserverload'] = "Server Load";
 Translated: */
-$_LANG['serverstatusserverload'] = "Server Load";
+$_LANG['serverstatusserverload'] = "サーバー負荷";
 
 /* Original: 
 $_LANG['serverstatustitle'] = "Server Status";
@@ -3470,67 +3470,67 @@ $_LANG['serverstatustitle'] = "サーバステータス";
 /* Original: 
 $_LANG['serverstatusuptime'] = "Uptime";
 Translated: */
-$_LANG['serverstatusuptime'] = "Uptime";
+$_LANG['serverstatusuptime'] = "稼働時間";
 
 /* Original: 
 $_LANG['serverusername'] = "Username";
 Translated: */
-$_LANG['serverusername'] = "Username";
+$_LANG['serverusername'] = "ユーザ名";
 
 /* Original: 
 $_LANG['show'] = "Show";
 Translated: */
-$_LANG['show'] = "Show";
+$_LANG['show'] = "見せる";
 
 /* Original: 
 $_LANG['ssladmininfo'] = "Administrative Contact Information";
 Translated: */
-$_LANG['ssladmininfo'] = "Administrative Contact Information";
+$_LANG['ssladmininfo'] = "管理者連絡先情報";
 
 /* Original: 
 $_LANG['ssladmininfodetails'] = "The contact information below will not be displayed on the Certificate - it is used only for contacting you regarding this order. The SSL Certificate and future renewal reminders will be sent to the email address specified below.";
 Translated: */
-$_LANG['ssladmininfodetails'] = "The contact information below will not be displayed on the Certificate - it is used only for contacting you regarding this order. The SSL Certificate and future renewal reminders will be sent to the email address specified below.";
+$_LANG['ssladmininfodetails'] = "以下の連絡先情報は証明書には表示されません - この注文に関してあなたにご連絡するためにのみ使用されます。 SSL証明書と今後の更新通知は、下記に指定されたEメールアドレスに送信されます。";
 
 /* Original: 
 $_LANG['sslcertapproveremail'] = "Certificate Approver Email";
 Translated: */
-$_LANG['sslcertapproveremail'] = "Certificate Approver Email";
+$_LANG['sslcertapproveremail'] = "証明書承認者のEメール";
 
 /* Original: 
 $_LANG['sslcertapproveremaildetails'] = "You must now choose from the options below where you would like the approval email request for this certificate to be sent.";
 Translated: */
-$_LANG['sslcertapproveremaildetails'] = "You must now choose from the options below where you would like the approval email request for this certificate to be sent.";
+$_LANG['sslcertapproveremaildetails'] = "この証明書の承認Eメールが必要な場合は、以下のオプションから選択できます。";
 
 /* Original: 
 $_LANG['sslcertinfo'] = "SSL Certificate Information";
 Translated: */
-$_LANG['sslcertinfo'] = "SSL Certificate Information";
+$_LANG['sslcertinfo'] = "SSL証明書情報";
 
 /* Original: 
 $_LANG['pleasechooseone'] = "Please choose one...";
 Translated: */
-$_LANG['pleasechooseone'] = "Please choose one...";
+$_LANG['pleasechooseone'] = "一つ選んでください...";
 
 /* Original: 
 $_LANG['sslcerttype'] = "Certificate Type";
 Translated: */
-$_LANG['sslcerttype'] = "Certificate Type";
+$_LANG['sslcerttype'] = "証明書タイプ";
 
 /* Original: 
 $_LANG['sslconfigcomplete'] = "Configuration Complete";
 Translated: */
-$_LANG['sslconfigcomplete'] = "Configuration Complete";
+$_LANG['sslconfigcomplete'] = "設定完了";
 
 /* Original: 
 $_LANG['sslconfigcompletedetails'] = "Your SSL certificate configuration has now been completed and sent to the Certificate Authority for validation. You should receive an email from them shortly to approve it.";
 Translated: */
-$_LANG['sslconfigcompletedetails'] = "Your SSL certificate configuration has now been completed and sent to the Certificate Authority for validation. You should receive an email from them shortly to approve it.";
+$_LANG['sslconfigcompletedetails'] = "これでSSL証明書の設定は完了し、検証のために認証局に送信されました。 承認するためのEメールがまもなく送られてきます。";
 
 /* Original: 
 $_LANG['sslconfsslcertificate'] = "Configure SSL Certificate";
 Translated: */
-$_LANG['sslconfsslcertificate'] = "Configure SSL Certificate";
+$_LANG['sslconfsslcertificate'] = "SSL証明書を設定する";
 
 /* Original: 
 $_LANG['sslcsr'] = "CSR";
@@ -3540,97 +3540,97 @@ $_LANG['sslcsr'] = "CSR";
 /* Original: 
 $_LANG['sslerrorapproveremail'] = "You must choose an approver email address";
 Translated: */
-$_LANG['sslerrorapproveremail'] = "You must choose an approver email address";
+$_LANG['sslerrorapproveremail'] = "承認者のEメールアドレスを選択してください";
 
 /* Original: 
 $_LANG['sslerrorentercsr'] = "You must enter your certificate signing request (CSR)";
 Translated: */
-$_LANG['sslerrorentercsr'] = "You must enter your certificate signing request (CSR)";
+$_LANG['sslerrorentercsr'] = "証明書署名要求（CSR）を入力してください";
 
 /* Original: 
 $_LANG['sslerrorselectserver'] = "You must select your server type";
 Translated: */
-$_LANG['sslerrorselectserver'] = "You must select your server type";
+$_LANG['sslerrorselectserver'] = "サーバーの種類を選択してください";
 
 /* Original: 
 $_LANG['sslinvalidlink'] = "Invalid Link Followed. Please go back and try again.";
 Translated: */
-$_LANG['sslinvalidlink'] = "Invalid Link Followed. Please go back and try again.";
+$_LANG['sslinvalidlink'] = "無効なリンクです。 戻ってもう一度やり直してください。";
 
 /* Original: 
 $_LANG['sslorderdate'] = "Order Date";
 Translated: */
-$_LANG['sslorderdate'] = "Order Date";
+$_LANG['sslorderdate'] = "注文日";
 
 /* Original: 
 $_LANG['sslserverinfo'] = "Server Information";
 Translated: */
-$_LANG['sslserverinfo'] = "Server Information";
+$_LANG['sslserverinfo'] = "サーバー情報";
 
 /* Original: 
 $_LANG['sslserverinfodetails'] = "You must have a valid \"CSR\" (Certificate Signing Request) to configure your SSL Certificate. The CSR is an encrypted piece of text that is generated by the web server where the SSL Certificate will be installed. If you do not already have a CSR, you must generate one or ask your web hosting provider to generate one for you.";
 Translated: */
-$_LANG['sslserverinfodetails'] = "You must have a valid \"CSR\" (Certificate Signing Request) to configure your SSL Certificate. The CSR is an encrypted piece of text that is generated by the web server where the SSL Certificate will be installed. If you do not already have a CSR, you must generate one or ask your web hosting provider to generate one for you.";
+$_LANG['sslserverinfodetails'] = "SSL証明書を設定するには、有効な\"CSR\"（証明書署名要求）が必要です。 CSRはSSL証明書をインストールするWebサーバーで生成された暗号化されたテキストです。 まだCSRを持っていないならば生成するか、CSRを生成するようにウェブホスティングプロバイダーに依頼してください。";
 
 /* Original: 
 $_LANG['sslservertype'] = "Web Server Type";
 Translated: */
-$_LANG['sslservertype'] = "Web Server Type";
+$_LANG['sslservertype'] = "Webサーバーの種類";
 
 /* Original: 
 $_LANG['sslstatus'] = "Configuration Status";
 Translated: */
-$_LANG['sslstatus'] = "Configuration Status";
+$_LANG['sslstatus'] = "構成ステータス";
 
 /* Original: 
 $_LANG['statscreditbalance'] = "Account Credit Balance";
 Translated: */
-$_LANG['statscreditbalance'] = "Account Credit Balance";
+$_LANG['statscreditbalance'] = "アカウントクレジット残高";
 
 /* Original: 
 $_LANG['statsdueinvoicesbalance'] = "Due Invoices Balance";
 Translated: */
-$_LANG['statsdueinvoicesbalance'] = "Due Invoices Balance";
+$_LANG['statsdueinvoicesbalance'] = "請求書残高の期日";
 
 /* Original: 
 $_LANG['statsnumdomains'] = "Number of Domains";
 Translated: */
-$_LANG['statsnumdomains'] = "Number of Domains";
+$_LANG['statsnumdomains'] = "ドメイン数";
 
 /* Original: 
 $_LANG['statsnumproducts'] = "Number of Products/Services";
 Translated: */
-$_LANG['statsnumproducts'] = "Number of Products/Services";
+$_LANG['statsnumproducts'] = "製品/サービス数";
 
 /* Original: 
 $_LANG['statsnumreferredsignups'] = "Number of Referred Signups";
 Translated: */
-$_LANG['statsnumreferredsignups'] = "Number of Referred Signups";
+$_LANG['statsnumreferredsignups'] = "参照する登録数";
 
 /* Original: 
 $_LANG['statsnumtickets'] = "Number of Support Tickets";
 Translated: */
-$_LANG['statsnumtickets'] = "Number of Support Tickets";
+$_LANG['statsnumtickets'] = "サポートチケット数";
 
 /* Original: 
 $_LANG['submitticketdescription'] = "Submit a trouble ticket";
 Translated: */
-$_LANG['submitticketdescription'] = "Submit a trouble ticket";
+$_LANG['submitticketdescription'] = "トラブルチケットを送信する";
 
 /* Original: 
 $_LANG['supportclickheretocontact'] = "click here to contact us";
 Translated: */
-$_LANG['supportclickheretocontact'] = "click here to contact us";
+$_LANG['supportclickheretocontact'] = "お問い合わせはこちらをクリックください";
 
 /* Original: 
 $_LANG['supportpresalesquestions'] = "If you have pre-sales questions";
 Translated: */
-$_LANG['supportpresalesquestions'] = "If you have pre-sales questions";
+$_LANG['supportpresalesquestions'] = "プリセールスに関する質問がある場合";
 
 /* Original: 
 $_LANG['supportticketinvalid'] = "An error occurred. The requested ticket could not be found.";
 Translated: */
-$_LANG['supportticketinvalid'] = "An error occurred. The requested ticket could not be found.";
+$_LANG['supportticketinvalid'] = "エラーが発生しました。 要求されたチケットが見つかりませんでした。";
 
 /* Original: 
 $_LANG['supportticketsallowedextensions'] = "Allowed File Extensions";
@@ -3670,7 +3670,7 @@ $_LANG['supportticketsdepartment'] = "種別";
 /* Original: 
 $_LANG['supportticketsdescription'] = "View and respond to existing tickets";
 Translated: */
-$_LANG['supportticketsdescription'] = "View and respond to existing tickets";
+$_LANG['supportticketsdescription'] = "既存のチケットを表示して返信する";
 
 /* Original: 
 $_LANG['supportticketserror'] = "Error";
@@ -3700,22 +3700,22 @@ $_LANG['supportticketserrornosubject'] = "件名を入力してください";
 /* Original: 
 $_LANG['supportticketsfilenotallowed'] = "The file you tried to upload is not allowed.";
 Translated: */
-$_LANG['supportticketsfilenotallowed'] = "The file you tried to upload is not allowed.";
+$_LANG['supportticketsfilenotallowed'] = "アップロードしようとしたファイルは許可されていません。";
 
 /* Original: 
 $_LANG['supportticketsheader'] = "If you can't find a solution to your problems in our knowledgebase, you can submit a ticket by selecting the appropriate department below.";
 Translated: */
-$_LANG['supportticketsheader'] = "If you can't find a solution to your problems in our knowledgebase, you can submit a ticket by selecting the appropriate department below.";
+$_LANG['supportticketsheader'] = "ナレッジベースで問題の解決策が見つからない場合は、下の該当する部門を選択してチケットを送信してください。";
 
 /* Original: 
 $_LANG['supportticketsnotfound'] = "Ticket Not Found";
 Translated: */
-$_LANG['supportticketsnotfound'] = "Ticket Not Found";
+$_LANG['supportticketsnotfound'] = "チケットが見つかりません";
 
 /* Original: 
 $_LANG['supportticketsopentickets'] = "Open Support Tickets";
 Translated: */
-$_LANG['supportticketsopentickets'] = "Open Support Tickets";
+$_LANG['supportticketsopentickets'] = "サポートチケットをオープンする";
 
 /* Original: 
 $_LANG['supportticketspagetitle'] = "Support Tickets";
@@ -3725,7 +3725,7 @@ $_LANG['supportticketspagetitle'] = "サポートへのお問い合わせ";
 /* Original: 
 $_LANG['supportticketsposted'] = "Posted";
 Translated: */
-$_LANG['supportticketsposted'] = "Posted";
+$_LANG['supportticketsposted'] = "投稿しました";
 
 /* Original: 
 $_LANG['supportticketsreply'] = "Reply";
@@ -9427,7 +9427,7 @@ $_LANG['orderForm']['authCodePlaceholder'] = "Auth Code";
 /* Original: 
 $_LANG['orderForm']['authCodeTooltip'] = "To initiate a transfer you will need to obtain the authorization code from your current registrar. These can often be referred to as either the epp code or auth code. They act as a password and are unique to the domain name.";
 Translated: */
-$_LANG['orderForm']['authCodeTooltip'] = "To initiate a transfer you will need to obtain the authorization code from your current registrar. These can often be referred to as either the epp code or auth code. They act as a password and are unique to the domain name.";
+$_LANG['orderForm']['authCodeTooltip'] = "移転を開始するには、現在のレジストラ（ドメインの管理会社）から認証コードを取得してください。 これらは、epp CodeまたはAuth Code（オースコード） と呼ばれることがあります。 それらはパスワードの役割を果たし、ドメイン名固有のものです。";
 
 /* Original: 
 $_LANG['orderForm']['help'] = "Help";
