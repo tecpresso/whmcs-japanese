@@ -280,7 +280,7 @@ $_LANG['cartaddons'] = "アドオン";
 /* Original: 
 $_LANG['cartbrowse'] = "Browse Products &amp; Services";
 Translated: */
-$_LANG['cartbrowse'] = "商品とサービスの一覧を表示";
+$_LANG['cartbrowse'] = "サービスの一覧を表示";
 
 /* Original: 
 $_LANG['cartconfigdomainextras'] = "Configure Domain Extras";
@@ -290,17 +290,17 @@ $_LANG['cartconfigdomainextras'] = "ドメインの追加設定";
 /* Original: 
 $_LANG['cartconfigoptionsdesc'] = "This product/service has some options which you can choose from below to customise your order.";
 Translated: */
-$_LANG['cartconfigoptionsdesc'] = "この商品／サービスは、以下からいくつかのオプションをお選び頂けます。";
+$_LANG['cartconfigoptionsdesc'] = "このサービスは、以下からいくつかのオプションをお選び頂けます。";
 
 /* Original: 
 $_LANG['cartconfigserver'] = "Configure Server";
 Translated: */
-$_LANG['cartconfigserver'] = "サーバの設定";
+$_LANG['cartconfigserver'] = "サーバ構成";
 
 /* Original: 
 $_LANG['cartcustomfieldsdesc'] = "This product/service requires some additional information from you to allow us to process your order.";
 Translated: */
-$_LANG['cartcustomfieldsdesc'] = "この商品／サービスは、ご注文に際していくつか追加の情報が必要です。";
+$_LANG['cartcustomfieldsdesc'] = "このサービスは、お申し込みに際していくつか追加の情報が必要です。";
 
 /* Original: 
 $_LANG['cartdomainsconfig'] = "Domains Configuration";
@@ -315,7 +315,7 @@ $_LANG['cartdomainsconfigdesc'] = "Below you can configure the domain names in y
 /* Original: 
 $_LANG['cartdomainshashosting'] = "Has Hosting";
 Translated: */
-$_LANG['cartdomainshashosting'] = "稼働中";
+$_LANG['cartdomainshashosting'] = "ホスティングあり";
 
 /* Original: 
 $_LANG['cartdomainsnohosting'] = "No Hosting! Click to Add";
@@ -340,17 +340,17 @@ $_LANG['cartemptyconfirm'] = "本当にカートを空にしますか？";
 /* Original: 
 $_LANG['cartexistingclientlogin'] = "Existing Client Login";
 Translated: */
-$_LANG['cartexistingclientlogin'] = "既存のクライアントログイン";
+$_LANG['cartexistingclientlogin'] = "既存のアカウントでログイン";
 
 /* Original: 
 $_LANG['cartexistingclientlogindesc'] = "To add this order to your existing account, you will need to login below.";
 Translated: */
-$_LANG['cartexistingclientlogindesc'] = "この注文を既存のアカウントに追加するには、以下でログインしてください。";
+$_LANG['cartexistingclientlogindesc'] = "このお申し込み内容を既存のアカウントに追加するには、以下からログインしてください。";
 
 /* Original: 
 $_LANG['cartnameserversdesc'] = "If you want to use custom nameservers then enter them below. By default, new domains will use our nameservers for hosting on our network.";
 Translated: */
-$_LANG['cartnameserversdesc'] = "カスタムネームサーバーを使用する場合は、以下に入力します。 デフォルトでは、新しいドメインは私たちのネームサーバを使ってホスティングします。";
+$_LANG['cartnameserversdesc'] = "新しいドメインは、デフォルトで当社のネームサーバを使用するように設定されます。独自のネームサーバを使用したい場合は、以下に入力してください。";
 
 /* Original: 
 $_LANG['cartproductaddons'] = "Product Addons";
@@ -365,17 +365,17 @@ $_LANG['cartproductaddonschoosepackage'] = "プラン選択";
 /* Original: 
 $_LANG['cartproductaddonsnone'] = "No Addons Available for your Products &amp; Services";
 Translated: */
-$_LANG['cartproductaddonsnone'] = "あなたのサービスに利用可能なアドオンはありません";
+$_LANG['cartproductaddonsnone'] = "ご選択のサービスに適用可能なアドオンはありません";
 
 /* Original: 
 $_LANG['cartproductconfig'] = "Product Configuration";
 Translated: */
-$_LANG['cartproductconfig'] = "製品構成";
+$_LANG['cartproductconfig'] = "サービス構成";
 
 /* Original: 
 $_LANG['cartproductdesc'] = "The product/service you have chosen has the following configuration options for you to choose from.";
 Translated: */
-$_LANG['cartproductdesc'] = "あなたが選択したサービスには、以下の設定オプションがあります。";
+$_LANG['cartproductdesc'] = "ご選択のサービスには、以下の構成オプションがあります。";
 
 /* Original: 
 $_LANG['cartproductdomain'] = "Domains";
@@ -390,7 +390,7 @@ $_LANG['cartproductdomainchoose'] = "ドメインを選択";
 /* Original: 
 $_LANG['cartproductdomaindesc'] = "The product/service you have chosen requires a domain name. Please enter your domain name below.";
 Translated: */
-$_LANG['cartproductdomaindesc'] = "選択したサービスにはドメイン名が必要です。 以下にドメイン名を入力してください。";
+$_LANG['cartproductdomaindesc'] = "ご選択のサービスにはドメイン名が必要です。 以下にドメイン名を入力してください。";
 
 /* Original: 
 $_LANG['cartproductdomainuseincart'] = "Use a domain already in my shopping cart";
@@ -410,12 +410,12 @@ $_LANG['cartremoveitemconfirm'] = "このサービスをカートから削除し
 /* Original: 
 $_LANG['carttaxupdateselections'] = "Tax may be charged depending upon the state and country selections you make. Click to recalculate after making your choices.";
 Translated: */
-$_LANG['carttaxupdateselections'] = "州や国の選択に応じて税金が課されることがあります。 選択後に再計算するにはクリックしてください。";
+$_LANG['carttaxupdateselections'] = "国や地域の選択に応じて税金が課されることがあります。再計算するにはクリックしてください。";
 
 /* Original: 
 $_LANG['carttaxupdateselectionsupdate'] = "Update";
 Translated: */
-$_LANG['carttaxupdateselectionsupdate'] = "アップデート";
+$_LANG['carttaxupdateselectionsupdate'] = "更新";
 
 /* Original: 
 $_LANG['carttitle'] = "Shopping Cart";
@@ -430,7 +430,7 @@ $_LANG['changessavedsuccessfully'] = "変更は正常に保存されました！
 /* Original: 
 $_LANG['checkavailability'] = "Check Availability";
 Translated: */
-$_LANG['checkavailability'] = "可能性のチェック";
+$_LANG['checkavailability'] = "空きをチェック";
 
 /* Original: 
 $_LANG['checkout'] = "Checkout";
@@ -465,12 +465,12 @@ $_LANG['clientareaactive'] = "有効";
 /* Original: 
 $_LANG['clientareaaddfundsdisabled'] = "We do not allow depositing funds in advance with us at the current time.";
 Translated: */
-$_LANG['clientareaaddfundsdisabled'] = "現時点で当社に事前に資金を入金することはできません。";
+$_LANG['clientareaaddfundsdisabled'] = "現在、残高をチャージしていただくことはできません。";
 
 /* Original: 
 $_LANG['clientareaaddfundsnotallowed'] = "You must have at least one active order before you can add funds so you cannot proceed at the current time!";
 Translated: */
-$_LANG['clientareaaddfundsnotallowed'] = "資金を追加する前に少なくとも1つの注文をアクティブにする必要があります。よって現時点では進めることはできません。";
+$_LANG['clientareaaddfundsnotallowed'] = "残高をチャージするには、少なくとも1つのサービス利用をお申し込み頂く必要があります。";
 
 /* Original: 
 $_LANG['clientareaaddon'] = "Addon";
@@ -480,7 +480,7 @@ $_LANG['clientareaaddon'] = "アドオン";
 /* Original: 
 $_LANG['clientareaaddonorderconfirmation'] = "Thank You. Your order for the addon shown below has been placed. Please choose your method of payment from below.";
 Translated: */
-$_LANG['clientareaaddonorderconfirmation'] = "ありがとうございました。 下記のアドオンを注文しました。 お支払い方法を下記から選択してください。";
+$_LANG['clientareaaddonorderconfirmation'] = "ありがとうございます。以下のアドオンのお申込みを承りました。お支払い方法をご選択ください。";
 
 /* Original: 
 $_LANG['clientareaaddonpricing'] = "Pricing";
@@ -510,22 +510,22 @@ $_LANG['clientareabwlimit'] = "通信量上限";
 /* Original: 
 $_LANG['clientareabwusage'] = "Bandwidth usage";
 Translated: */
-$_LANG['clientareabwusage'] = "通信使用量";
+$_LANG['clientareabwusage'] = "使用済み通信量";
 
 /* Original: 
 $_LANG['clientareacancel'] = "Cancel Changes";
 Translated: */
-$_LANG['clientareacancel'] = "変更内容を破棄";
+$_LANG['clientareacancel'] = "変更を取り消し";
 
 /* Original: 
 $_LANG['clientareacancelconfirmation'] = "Thank You. Your cancellation request has been submitted. If you have done this in error, open a support ticket to notify us immediately or your account may be terminated.";
 Translated: */
-$_LANG['clientareacancelconfirmation'] = "ありがとうございました。 あなたのキャンセルリクエストが提出されました。 もしこれが誤りだった場合は、サポートチケットをオープンしてすぐ私たちに通知してください。そうでなければアカウントが終了する可能性があります。";
+$_LANG['clientareacancelconfirmation'] = "ありがとうございます。ご解約のリクエストを受け付けました。もし誤ってリクエストを送信された場合は、速やかにサポートチケットにてお知らせください。";
 
 /* Original: 
 $_LANG['clientareacancelinvalid'] = "This account has already had a cancellation request submitted so you cannot submit another.";
 Translated: */
-$_LANG['clientareacancelinvalid'] = "このアカウントにはすでにキャンセルリクエストが送信されていますので、別のもので送信することはできません。";
+$_LANG['clientareacancelinvalid'] = "このアカウントはすでにご解約のリクエストを受け付けております。追加のリクエストをお送り頂くことはできません。";
 
 /* Original: 
 $_LANG['clientareacancellationendofbillingperiod'] = "End of Billing Period";
