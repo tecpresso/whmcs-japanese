@@ -55,17 +55,17 @@ $_LANG['addfundsmaximum'] = "最大チャージ";
 /* Original: 
 $_LANG['addfundsmaximumbalance'] = "Maximum Balance";
 Translated: */
-$_LANG['addfundsmaximumbalance'] = "最大残高";
+$_LANG['addfundsmaximumbalance'] = "残高上限";
 
 /* Original: 
 $_LANG['addfundsmaximumbalanceerror'] = "Maximum Balance amount is";
 Translated: */
-$_LANG['addfundsmaximumbalanceerror'] = "チャージ残高上限は";
+$_LANG['addfundsmaximumbalanceerror'] = "残高の上限は";
 
 /* Original: 
 $_LANG['addfundsmaximumerror'] = "Maximum Deposit amount is";
 Translated: */
-$_LANG['addfundsmaximumerror'] = "チャージ可能な最大の金額は";
+$_LANG['addfundsmaximumerror'] = "チャージ可能な最高額は";
 
 /* Original: 
 $_LANG['addfundsminimum'] = "Minimum Deposit";
@@ -75,12 +75,12 @@ $_LANG['addfundsminimum'] = "最小チャージ";
 /* Original: 
 $_LANG['addfundsminimumerror'] = "Minimum Deposit amount is";
 Translated: */
-$_LANG['addfundsminimumerror'] = "チャージ可能な最低の金額は";
+$_LANG['addfundsminimumerror'] = "チャージ可能な最低額は";
 
 /* Original: 
 $_LANG['addmore'] = "Add More";
 Translated: */
-$_LANG['addmore'] = "追加";
+$_LANG['addmore'] = "さらに追加";
 
 /* Original: 
 $_LANG['addtocart'] = "Add to Cart";
@@ -235,7 +235,7 @@ $_LANG['announcementsdescription'] = "最新のお知らせを表示";
 /* Original: 
 $_LANG['announcementsnone'] = "No Announcements to Display";
 Translated: */
-$_LANG['announcementsnone'] = "現在、お知らせはありません";
+$_LANG['announcementsnone'] = "お知らせはありません";
 
 /* Original: 
 $_LANG['announcementsrss'] = "View RSS Feed";
@@ -275,22 +275,22 @@ $_LANG['bannedyourip'] = "あなたのIPアドレス";
 /* Original: 
 $_LANG['cartaddons'] = "Addons";
 Translated: */
-$_LANG['cartaddons'] = "オプション";
+$_LANG['cartaddons'] = "アドオン";
 
 /* Original: 
 $_LANG['cartbrowse'] = "Browse Products &amp; Services";
 Translated: */
-$_LANG['cartbrowse'] = "サービスの閲覧";
+$_LANG['cartbrowse'] = "商品とサービスの一覧を表示";
 
 /* Original: 
 $_LANG['cartconfigdomainextras'] = "Configure Domain Extras";
 Translated: */
-$_LANG['cartconfigdomainextras'] = "Configure Domain Extras";
+$_LANG['cartconfigdomainextras'] = "ドメインの追加設定";
 
 /* Original: 
 $_LANG['cartconfigoptionsdesc'] = "This product/service has some options which you can choose from below to customise your order.";
 Translated: */
-$_LANG['cartconfigoptionsdesc'] = "このサービスには、以下から選択して注文をカスタマイズできるいくつかのオプションがあります。";
+$_LANG['cartconfigoptionsdesc'] = "この商品／サービスは、以下からいくつかのオプションをお選び頂けます。";
 
 /* Original: 
 $_LANG['cartconfigserver'] = "Configure Server";
@@ -300,7 +300,7 @@ $_LANG['cartconfigserver'] = "サーバの設定";
 /* Original: 
 $_LANG['cartcustomfieldsdesc'] = "This product/service requires some additional information from you to allow us to process your order.";
 Translated: */
-$_LANG['cartcustomfieldsdesc'] = "このサービスには、注文を処理するために追加情報が必要です。";
+$_LANG['cartcustomfieldsdesc'] = "この商品／サービスは、ご注文に際していくつか追加の情報が必要です。";
 
 /* Original: 
 $_LANG['cartdomainsconfig'] = "Domains Configuration";
@@ -355,7 +355,7 @@ $_LANG['cartnameserversdesc'] = "カスタムネームサーバーを使用す�
 /* Original: 
 $_LANG['cartproductaddons'] = "Product Addons";
 Translated: */
-$_LANG['cartproductaddons'] = "オプションサービス";
+$_LANG['cartproductaddons'] = "アドオンサービス";
 
 /* Original: 
 $_LANG['cartproductaddonschoosepackage'] = "Choose Package";
@@ -455,7 +455,7 @@ $_LANG['clickheretologin'] = "ここをクリックしてログイン";
 /* Original: 
 $_LANG['clientareaaccountaddons'] = "Account Addons";
 Translated: */
-$_LANG['clientareaaccountaddons'] = "アカウントオプション";
+$_LANG['clientareaaccountaddons'] = "アカウントアドオン";
 
 /* Original: 
 $_LANG['clientareaactive'] = "Active";
@@ -475,7 +475,7 @@ $_LANG['clientareaaddfundsnotallowed'] = "資金を追加する前に少なく�
 /* Original: 
 $_LANG['clientareaaddon'] = "Addon";
 Translated: */
-$_LANG['clientareaaddon'] = "オプション";
+$_LANG['clientareaaddon'] = "アドオン";
 
 /* Original: 
 $_LANG['clientareaaddonorderconfirmation'] = "Thank You. Your order for the addon shown below has been placed. Please choose your method of payment from below.";
@@ -840,7 +840,7 @@ $_LANG['clientareaheader'] = "あなたのアカウントを管理できるク�
 /* Original: 
 $_LANG['clientareahostingaddons'] = "Addons";
 Translated: */
-$_LANG['clientareahostingaddons'] = "オプション";
+$_LANG['clientareahostingaddons'] = "アドオン";
 
 /* Original: 
 $_LANG['clientareahostingaddonsintro'] = "You have the following addons for this product.";
@@ -2665,7 +2665,7 @@ $_LANG['ordercheckout'] = "お支払い";
 /* Original: 
 $_LANG['orderchooseaddons'] = "Choose Product Addons";
 Translated: */
-$_LANG['orderchooseaddons'] = "オプションサービスを選択";
+$_LANG['orderchooseaddons'] = "アドオンサービスを選択";
 
 /* Original: 
 $_LANG['orderchooseapackage'] = "Choose a Package";
@@ -6322,7 +6322,7 @@ $_LANG['quotefilename'] = "Quote-";
 /* Original: 
 $_LANG['domainaddons'] = "Addons";
 Translated: */
-$_LANG['domainaddons'] = "オプション";
+$_LANG['domainaddons'] = "アドオン";
 
 /* Original: 
 $_LANG['domainaddonsinfo'] = "The following addons are available for your domain(s)...";
