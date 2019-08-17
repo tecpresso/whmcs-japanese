@@ -460,7 +460,7 @@ $_LANG['clientareaaccountaddons'] = "アカウントアドオン";
 /* Original: 
 $_LANG['clientareaactive'] = "Active";
 Translated: */
-$_LANG['clientareaactive'] = "有効";
+$_LANG['clientareaactive'] = "稼働中";
 
 /* Original: 
 $_LANG['clientareaaddfundsdisabled'] = "We do not allow depositing funds in advance with us at the current time.";
@@ -525,12 +525,12 @@ $_LANG['clientareacancelconfirmation'] = "ありがとうございます。ご�
 /* Original: 
 $_LANG['clientareacancelinvalid'] = "This account has already had a cancellation request submitted so you cannot submit another.";
 Translated: */
-$_LANG['clientareacancelinvalid'] = "このアカウントはすでにご解約のリクエストを受け付けております。追加のリクエストをお送り頂くことはできません。";
+$_LANG['clientareacancelinvalid'] = "このアカウントは解約処理中です。追加のリクエストをお送り頂くことはできません。";
 
 /* Original: 
 $_LANG['clientareacancellationendofbillingperiod'] = "End of Billing Period";
 Translated: */
-$_LANG['clientareacancellationendofbillingperiod'] = "請求期間の終了";
+$_LANG['clientareacancellationendofbillingperiod'] = "現在の請求期間の終了時点";
 
 /* Original: 
 $_LANG['clientareacancellationimmediate'] = "Immediate";
@@ -540,32 +540,32 @@ $_LANG['clientareacancellationimmediate'] = "即時";
 /* Original: 
 $_LANG['clientareacancellationtype'] = "Cancellation Type";
 Translated: */
-$_LANG['clientareacancellationtype'] = "キャンセルタイプ";
+$_LANG['clientareacancellationtype'] = "解約時期";
 
 /* Original: 
 $_LANG['clientareacancelled'] = "Cancelled";
 Translated: */
-$_LANG['clientareacancelled'] = "キャンセル済み";
+$_LANG['clientareacancelled'] = "解約済";
 
 /* Original: 
 $_LANG['clientareacancelproduct'] = "Requesting Cancellation for";
 Translated: */
-$_LANG['clientareacancelproduct'] = "キャンセルをリクエストする";
+$_LANG['clientareacancelproduct'] = "解約するサービス";
 
 /* Original: 
 $_LANG['clientareacancelreason'] = "Briefly Describe your reason for Cancellation";
 Translated: */
-$_LANG['clientareacancelreason'] = "キャンセルの理由を簡単に記入してください";
+$_LANG['clientareacancelreason'] = "状況確認のため、差し支えのない範囲で解約理由をご入力ください";
 
 /* Original: 
 $_LANG['clientareacancelrequest'] = "Account Cancellation Request";
 Translated: */
-$_LANG['clientareacancelrequest'] = "アカウントのキャンセルリクエスト";
+$_LANG['clientareacancelrequest'] = "解約依頼";
 
 /* Original: 
 $_LANG['clientareacancelrequestbutton'] = "Request Cancellation";
 Translated: */
-$_LANG['clientareacancelrequestbutton'] = "キャンセルリクエスト";
+$_LANG['clientareacancelrequestbutton'] = "解約依頼";
 
 /* Original: 
 $_LANG['clientareachangepassword'] = "Change Your Password";
@@ -835,7 +835,7 @@ $_LANG['clientareafullname'] = "クライアント名";
 /* Original: 
 $_LANG['clientareaheader'] = "Welcome to our client area where you can manage your account with us. This page provides a brief overview of your account including any open support requests and unpaid invoices.  Please ensure you keep your contact details up to date.";
 Translated: */
-$_LANG['clientareaheader'] = "あなたのアカウントを管理できるクライアントエリアへようこそ。 このページでは、オープンしているサポートリクエストや未払いの請求書など、アカウントの概要を簡単に説明しています。 連絡先の詳細を最新の状態に保つようにしてください。";
+$_LANG['clientareaheader'] = "あなたのアカウントを管理できるダッシュボードへようこそ。 このページでは、オープンしているサポートリクエストや未払いの請求書など、アカウントの概要を簡単に説明しています。 連絡先の詳細を最新の状態に保つようにしてください。";
 
 /* Original: 
 $_LANG['clientareahostingaddons'] = "Addons";
@@ -960,7 +960,7 @@ $_LANG['clientareanavsecurityquestions'] = "セキュリティの質問を変更
 /* Original: 
 $_LANG['clientareanavservices'] = "My Services";
 Translated: */
-$_LANG['clientareanavservices'] = "契約サービス";
+$_LANG['clientareanavservices'] = "ご利用中のサービス";
 
 /* Original: 
 $_LANG['clientareanavsupporttickets'] = "My Support Tickets";
@@ -980,7 +980,7 @@ $_LANG['clientareapassword'] = "パスワード";
 /* Original: 
 $_LANG['clientareapending'] = "Pending";
 Translated: */
-$_LANG['clientareapending'] = "保留";
+$_LANG['clientareapending'] = "保留中";
 
 /* Original: 
 $_LANG['clientareapendingtransfer'] = "Pending Transfer";
@@ -1060,22 +1060,22 @@ $_LANG['clientareastatus'] = "ステータス";
 /* Original: 
 $_LANG['clientareasuspended'] = "Suspended";
 Translated: */
-$_LANG['clientareasuspended'] = "サスペンド(中断)";
+$_LANG['clientareasuspended'] = "停止中";
 
 /* Original: 
 $_LANG['clientareaterminated'] = "Terminated";
 Translated: */
-$_LANG['clientareaterminated'] = "終了";
+$_LANG['clientareaterminated'] = "終了済";
 
 /* Original: 
 $_LANG['clientareaticktoenable'] = "Tick to enable";
 Translated: */
-$_LANG['clientareaticktoenable'] = "Tick to enable";
+$_LANG['clientareaticktoenable'] = "クリックして有効化e";
 
 /* Original: 
 $_LANG['clientareatitle'] = "Client Area";
 Translated: */
-$_LANG['clientareatitle'] = "会員ページ";
+$_LANG['clientareatitle'] = "ダッシュボード";
 
 /* Original: 
 $_LANG['clientareaunlimited'] = "Unlimited";
@@ -1145,7 +1145,7 @@ $_LANG['closewindow'] = "閉じる";
 /* Original: 
 $_LANG['completeorder'] = "Complete Order";
 Translated: */
-$_LANG['completeorder'] = "注文の完了";
+$_LANG['completeorder'] = "お申し込み確定";
 
 /* Original: 
 $_LANG['confirmnewpassword'] = "Confirm New Password";
@@ -1980,7 +1980,7 @@ $_LANG['invoiceaddcreditovercredit'] = "アカウントにある金額よりも�
 /* Original: 
 $_LANG['invoicenumber'] = "Invoice #";
 Translated: */
-$_LANG['invoicenumber'] = "請求書番号";
+$_LANG['invoicenumber'] = "請求書 #";
 
 /* Original: 
 $_LANG['invoiceofflinepaid'] = "Offline Credit Card Payments are processed manually.<br />You will receive confirmation by email once your payment has been processed.";
@@ -1990,7 +1990,7 @@ $_LANG['invoiceofflinepaid'] = "オフラインクレジットカード決済は
 /* Original: 
 $_LANG['invoicerefnum'] = "Reference Number";
 Translated: */
-$_LANG['invoicerefnum'] = "参照番号";
+$_LANG['invoicerefnum'] = "請求番号";
 
 /* Original: 
 $_LANG['invoices'] = "My Invoices";
@@ -2010,12 +2010,12 @@ $_LANG['invoicesattn'] = "宛先";
 /* Original: 
 $_LANG['invoicesbacktoclientarea'] = "&laquo; Back to Client Area";
 Translated: */
-$_LANG['invoicesbacktoclientarea'] = "&laquo; 会員ページに戻る";
+$_LANG['invoicesbacktoclientarea'] = "&laquo; ダッシュボードへ戻る";
 
 /* Original: 
 $_LANG['invoicesbalance'] = "Balance";
 Translated: */
-$_LANG['invoicesbalance'] = "バランス";
+$_LANG['invoicesbalance'] = "お支払い残高";
 
 /* Original: 
 $_LANG['invoicesbefore'] = "before";
@@ -2025,7 +2025,7 @@ $_LANG['invoicesbefore'] = "前";
 /* Original: 
 $_LANG['invoicescancelled'] = "Cancelled";
 Translated: */
-$_LANG['invoicescancelled'] = "キャンセル";
+$_LANG['invoicescancelled'] = "取消済";
 
 /* Original: 
 $_LANG['invoicescollections'] = "Collections";
@@ -2045,7 +2045,7 @@ $_LANG['invoicesdatecreated'] = "請求日";
 /* Original: 
 $_LANG['invoicesdatedue'] = "Due Date";
 Translated: */
-$_LANG['invoicesdatedue'] = "期限";
+$_LANG['invoicesdatedue'] = "お支払い期限";
 
 /* Original: 
 $_LANG['invoicesdescription'] = "Description";
@@ -2090,7 +2090,7 @@ $_LANG['invoicesoutstandinginvoices'] = "未払請求書";
 /* Original: 
 $_LANG['invoicespaid'] = "Paid";
 Translated: */
-$_LANG['invoicespaid'] = "支払い済み";
+$_LANG['invoicespaid'] = "領収済";
 
 /* Original: 
 $_LANG['invoicespaynow'] = "Pay Now";
@@ -2100,7 +2100,7 @@ $_LANG['invoicespaynow'] = "支払う";
 /* Original: 
 $_LANG['invoicespayto'] = "Pay To";
 Translated: */
-$_LANG['invoicespayto'] = "へ支払います";
+$_LANG['invoicespayto'] = "お支払い先";
 
 /* Original: 
 $_LANG['invoicesrefunded'] = "Refunded";
@@ -2125,7 +2125,7 @@ $_LANG['invoicestax'] = "税金";
 /* Original: 
 $_LANG['invoicestaxindicator'] = "Indicates a taxed item.";
 Translated: */
-$_LANG['invoicestaxindicator'] = "課税された項目を示します。";
+$_LANG['invoicestaxindicator'] = "課税項目";
 
 /* Original: 
 $_LANG['invoicestitle'] = "Invoice #";
@@ -2170,12 +2170,12 @@ $_LANG['invoicestransnonefound'] = "関連するトランザクションが見�
 /* Original: 
 $_LANG['invoicesunpaid'] = "Unpaid";
 Translated: */
-$_LANG['invoicesunpaid'] = "未払い";
+$_LANG['invoicesunpaid'] = "未領収";
 
 /* Original: 
 $_LANG['invoicesdraft'] = "Draft";
 Translated: */
-$_LANG['invoicesdraft'] = "ドラフト";
+$_LANG['invoicesdraft'] = "未確定";
 
 /* Original: 
 $_LANG['invoicesview'] = "View Invoice";
@@ -2875,7 +2875,7 @@ $_LANG['orderfailed'] = "注文失敗";
 /* Original: 
 $_LANG['orderfinalinstructions'] = "If you have any questions about your order, please open a support ticket from your client area and quote your order number.";
 Translated: */
-$_LANG['orderfinalinstructions'] = "ご注文についてご質問がある場合は、クライアントエリアからサポートチケットを開いて注文番号をお伝えください。";
+$_LANG['orderfinalinstructions'] = "お申し込み内容についてのお問い合わせは、ダッシュボードからお申し込み番号を明記の上、お問い合わせください。";
 
 /* Original: 
 $_LANG['orderfree'] = "FREE!";
@@ -2905,7 +2905,7 @@ $_LANG['orderfreedomainregistration'] = "無料ドメイン登録";
 /* Original: 
 $_LANG['ordergotoclientarea'] = "Click here to go to your Client Area";
 Translated: */
-$_LANG['ordergotoclientarea'] = "会員ページへ移動するにはここをクリック";
+$_LANG['ordergotoclientarea'] = "ダッシュボードへ移動するにはここをクリック";
 
 /* Original: 
 $_LANG['orderinvalidcodeforbillingcycle'] = "This code does not apply to the selected billing cycle";
@@ -2925,7 +2925,7 @@ $_LANG['orderlogininfopart1'] = "ログインに使用するパスワードを�
 /* Original: 
 $_LANG['orderlogininfopart2'] = "Client Area. This will differ from your website control panel username &amp; password.";
 Translated: */
-$_LANG['orderlogininfopart2'] = "クライアントエリア。 ウェブサイトコントロールパネルのユーザー名&amp;パスワードとは異なります。 ";
+$_LANG['orderlogininfopart2'] = "ダッシュボード。cPanelのログイン情報とは異なります。";
 
 /* Original: 
 $_LANG['ordernewuser'] = "I am a new customer and would like to create an account";
@@ -2940,12 +2940,12 @@ $_LANG['ordernoproducts'] = "商品が見つかりません";
 /* Original: 
 $_LANG['ordernotes'] = "Notes / Additional Information";
 Translated: */
-$_LANG['ordernotes'] = "メモ/追加情報";
+$_LANG['ordernotes'] = "メモ／追加情報";
 
 /* Original: 
 $_LANG['ordernotesdescription'] = "You can enter any additional notes or information you want included with your order here...";
 Translated: */
-$_LANG['ordernotesdescription'] = "ここにあなたのご注文に含みたいどんな追加のメモまたは情報も入力できます...";
+$_LANG['ordernotesdescription'] = "お申し込みに際して特記事項がある場合は、こちらにご記入ください。";
 
 /* Original: 
 $_LANG['ordernowbutton'] = "Order Now";
@@ -3090,12 +3090,12 @@ $_LANG['orderregperiod'] = "登録期限";
 /* Original: 
 $_LANG['ordersecure'] = "This order form is provided in a secure environment and to help protect against fraud your current IP address";
 Translated: */
-$_LANG['ordersecure'] = "この注文フォームは安全な環境で提供されており、現在のIPアドレスを不正使用から保護するのに役立ちます。";
+$_LANG['ordersecure'] = "このフォームの内容は、暗号化通信によって安全に送信されます。システムを不正アクセスから保護するため、お客様のアクセス元IPアドレス";
 
 /* Original: 
 $_LANG['ordersecure2'] = "is being logged.";
 Translated: */
-$_LANG['ordersecure2'] = "ログに記録されています。";
+$_LANG['ordersecure2'] = "はログに記録されます。";
 
 /* Original: 
 $_LANG['orderserverhostname'] = "Server Hostname";
@@ -3175,7 +3175,7 @@ $_LANG['ordertos'] = "利用規約";
 /* Original: 
 $_LANG['ordertosagreement'] = "I have read and agree to the";
 Translated: */
-$_LANG['ordertosagreement'] = "読んで同意します";
+$_LANG['ordertosagreement'] = "次の内容に同意します：";
 
 /* Original: 
 $_LANG['ordertotalduetoday'] = "Total Due Today";
@@ -3200,7 +3200,7 @@ $_LANG['ordertransfersecret'] = "移管シークレット";
 /* Original: 
 $_LANG['ordertransfersecretexplanation'] = "Please enter the Domain Transfer Secret which can be obtained from the current Registrar of the Domain Name. ";
 Translated: */
-$_LANG['ordertransfersecretexplanation'] = "ドメイン名の現在の登録機関から取得したドメイン移管シークレットを入力してください。";
+$_LANG['ordertransfersecretexplanation'] = "対象ドメイン名の認証コード（Auth Code）を入力してください。認証コードは、現在ご利用中のドメイン管理事業者で確認できます。";
 
 /* Original: 
 $_LANG['orderusesubdomain'] = "Use Subdomain";
@@ -3360,17 +3360,17 @@ $_LANG['securitycurrentincorrect'] = "現在の質問と答えは間違ってい
 /* Original: 
 $_LANG['serverchangepassword'] = "Change Password";
 Translated: */
-$_LANG['serverchangepassword'] = "パスワードを変更する";
+$_LANG['serverchangepassword'] = "パスワード変更";
 
 /* Original: 
 $_LANG['serverchangepasswordintro'] = "From here you can change the password of the product/service (note: this does not affect your password for our client area)";
 Translated: */
-$_LANG['serverchangepasswordintro'] = "ここからあなたは製品/サービスのパスワードを変更することができます（注：これはクライアントエリアのパスワードには影響しません）";
+$_LANG['serverchangepasswordintro'] = "こちらからご利用中のサービスのパスワードを変更できます（ダッシュボードのパスワードには影響しません）";
 
 /* Original: 
 $_LANG['serverchangepasswordconfirm'] = "Confirm Password";
 Translated: */
-$_LANG['serverchangepasswordconfirm'] = "パスワードを認証する";
+$_LANG['serverchangepasswordconfirm'] = "パスワード確認";
 
 /* Original: 
 $_LANG['serverchangepasswordenter'] = "Enter New Password";
@@ -4269,7 +4269,7 @@ $_LANG['subaccountactivate'] = "アクセス権設定";
 /* Original: 
 $_LANG['subaccountactivatedesc'] = "Tick to configure as a sub-account with client area access";
 Translated: */
-$_LANG['subaccountactivatedesc'] = "このユーザにアカウントページへのログインを許可";
+$_LANG['subaccountactivatedesc'] = "このユーザにダッシュボードへのログインを許可";
 
 /* Original: 
 $_LANG['subaccountpermissions'] = "Sub-Account Permissions";
@@ -4419,7 +4419,7 @@ $_LANG['invoicestotaldue'] = "合計";
 /* Original: 
 $_LANG['masspaytitle'] = "Mass Payment";
 Translated: */
-$_LANG['masspaytitle'] = "まとめて支払い";
+$_LANG['masspaytitle'] = "一括支払い";
 
 /* Original: 
 $_LANG['masspaydescription'] = "Below is a summary of the selected invoices and the total due to pay all of them. To submit payment please just choose your desired payment method below and then submit.";
@@ -4429,12 +4429,12 @@ $_LANG['masspaydescription'] = "以下は、選択された請求書とそれら
 /* Original: 
 $_LANG['masspayselected'] = "Pay Selected";
 Translated: */
-$_LANG['masspayselected'] = "選択された支払い";
+$_LANG['masspayselected'] = "選択分を支払い";
 
 /* Original: 
 $_LANG['masspayall'] = "Pay All";
 Translated: */
-$_LANG['masspayall'] = "まとめて支払い";
+$_LANG['masspayall'] = "すべて支払い";
 
 /* Original: 
 $_LANG['masspaymakepayment'] = "Make Payment";
@@ -4458,12 +4458,12 @@ $_LANG['searchfilter'] = "フィルタ";
 /* Original: 
 $_LANG['suspendreason'] = "Suspension Reason";
 Translated: */
-$_LANG['suspendreason'] = "サスペンション理由";
+$_LANG['suspendreason'] = "停止理由";
 
 /* Original: 
 $_LANG['suspendreasonoverdue'] = "Overdue on Payment";
 Translated: */
-$_LANG['suspendreasonoverdue'] = "支払い期日超過";
+$_LANG['suspendreasonoverdue'] = "支払い期限超過";
 
 
 /* Original: 
@@ -4600,7 +4600,7 @@ $_LANG['twitterlatesttweets'] = "最新ツイート";
 /* Original: 
 $_LANG['twitterfollow'] = "Follow Us on Twitter";
 Translated: */
-$_LANG['twitterfollow'] = "Twitterでフォローします";
+$_LANG['twitterfollow'] = "Twitterでフォロー";
 
 /* Original: 
 $_LANG['twitterfollowus'] = "Follow us";
@@ -5713,7 +5713,7 @@ $_LANG['clientareahomeorder'] = "Visit the Order Form to browse the Products & S
 /* Original: 
 $_LANG['clientareahomelogin'] = "Already registered with us? If so, click the button below to login to our client area from where you can manage your account.";
 Translated: */
-$_LANG['clientareahomelogin'] = "既にアカウントをお持ちの場合は、以下のボタンからアカウントページへログインして頂けます。";
+$_LANG['clientareahomelogin'] = "既にアカウントをお持ちの場合は、以下のボタンからログインして頂けます。";
 
 /* Original: 
 $_LANG['clientareahomeorderbtn'] = "Go to Order Form";
@@ -5976,7 +5976,7 @@ $_LANG['serverstatusheadingtext'] = "Below is a real-time overview of our server
 /* Original: 
 $_LANG['clientareacancelreasonrequired'] = "You must enter a cancellation reason";
 Translated: */
-$_LANG['clientareacancelreasonrequired'] = "キャンセル事由を入力してください";
+$_LANG['clientareacancelreasonrequired'] = "解約理由をご入力ください";
 
 
 /* Original: 
@@ -6564,7 +6564,7 @@ $_LANG['feedbacksupplyrating'] = "Please supply at least a rating for :staffname
 /* Original: 
 $_LANG['returnclient'] = "Return to Client Area";
 Translated: */
-$_LANG['returnclient'] = "会員ページに戻る";
+$_LANG['returnclient'] = "ダッシュボードへ戻る";
 
 
 /* Original: 
@@ -7652,7 +7652,7 @@ $_LANG['customfield'] = "Custom Fields";
 /* Original: 
 $_LANG['domainsActive'] = "Active";
 Translated: */
-$_LANG['domainsActive'] = "有効";
+$_LANG['domainsActive'] = "稼働中";
 
 /* Original: 
 $_LANG['domainsExpired'] = "Expired";
@@ -7662,17 +7662,17 @@ $_LANG['domainsExpired'] = "期限切れ";
 /* Original: 
 $_LANG['domainsCancelled'] = "Cancelled";
 Translated: */
-$_LANG['domainsCancelled'] = "キャンセル済み";
+$_LANG['domainsCancelled'] = "解約済";
 
 /* Original: 
 $_LANG['domainsFraud'] = "Fraud";
 Translated: */
-$_LANG['domainsFraud'] = "Fraud";
+$_LANG['domainsFraud'] = "スパム";
 
 /* Original: 
 $_LANG['domainsPending'] = "Pending";
 Translated: */
-$_LANG['domainsPending'] = "保留";
+$_LANG['domainsPending'] = "保留中";
 
 /* Original: 
 $_LANG['domainsPendingTransfer'] = "Pending Transfer";
@@ -7904,7 +7904,7 @@ $_LANG['clientAlerts']['domainsExpiringSoon'] = "You have :numberOfDomains domai
 /* Original: 
 $_LANG['clientAlerts']['invoicesUnpaid'] = "You have :numberOfInvoices unpaid invoice(s). Pay them early for peace of mind.";
 Translated: */
-$_LANG['clientAlerts']['invoicesUnpaid'] = "未払いの請求書が:numberOfInvoices件あります。お早めにお支払いをお願いします。";
+$_LANG['clientAlerts']['invoicesUnpaid'] = "お支払い前の請求書は :numberOfInvoices件 です。お早めのお支払いお手続きをお願い致します。";
 
 /* Original: 
 $_LANG['clientAlerts']['invoicesOverdue'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interruptions in service.";
@@ -7926,7 +7926,7 @@ $_LANG['clientHomePanels']['unpaidInvoices'] = "お支払い前の請求書";
 /* Original: 
 $_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "You have :numberOfInvoices unpaid invoice(s) with a total balance due of :balanceDue. Pay them early for peace of mind.";
 Translated: */
-$_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "合計:balanceDue の未払いの請求書が:numberOfInvoices件あります。 お早めにお支払いをお願いします。";
+$_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "お支払い前の請求書は :numberOfInvoices件 です。お早めのお支払いお手続きをお願い致します。";
 
 /* Original: 
 $_LANG['clientHomePanels']['overdueInvoices'] = "Overdue Invoices";
@@ -7936,7 +7936,7 @@ $_LANG['clientHomePanels']['overdueInvoices'] = "延滞請求書";
 /* Original: 
 $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interruptions in service.";
 Translated: */
-$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "合計:balanceDue の延滞請求書が:numberOfInvoices件あります。サービスの中断を避けるため、お早めのお支払いお願いいたします。";
+$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "お支払いを確認できない請求書が :numberOfInvoices件 あります。サービスのご提供を停止させて頂く場合がございますので、至急ご確認ください。";
 
 /* Original: 
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domains Expiring Soon";
@@ -7956,7 +7956,7 @@ $_LANG['clientHomePanels']['activeProductsServices'] = "ご利用中のサービ
 /* Original: 
 $_LANG['clientHomePanels']['activeProductsServicesNone'] = "It appears you do not have any products/services with us yet. <a href=\"cart.php\">Place an order to get started</a>.";
 Translated: */
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "現在ご利用頂いているサービスはありません。<br><a href=\"cart.php\">こちらからサービスの利用をお申し込み頂けます</a>。";
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "現在ご利用中のサービスはありません。<br><a href=\"cart.php\">こちらからサービスをお申し込み頂けます</a>。";
 
 /* Original: 
 $_LANG['clientHomePanels']['recentNews'] = "Recent News";
@@ -7976,7 +7976,7 @@ $_LANG['clientHomePanels']['recentSupportTickets'] = "最近のお問い合わ�
 /* Original: 
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
 Translated: */
-$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "最近のお問い合わせはありません。<br>お問い合わせは、<a href=\"submitticket.php\">こちらのページよりお送りください</a>。";
+$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "最近のお問い合わせはありません。<br><a href=\"submitticket.php\">こちらからお問い合わせ頂けます。</a>";
 
 /* Original: 
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
@@ -8436,23 +8436,23 @@ $_LANG['cPanel']['emailAccountCreateFailed'] = "メールアカウントを作�
 /* Original: 
 $_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
 Translated: */
-$_LANG['cPanel']['packageNotActive'] = "このホスティングパッケージは現在";
+$_LANG['cPanel']['packageNotActive'] = "このホスティングプランの状態：";
 
 /* Original: 
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
 Translated: */
-$_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
+$_LANG['cPanel']['statusPendingNotice'] = "アカウントが有効化され次第、サービスをご利用いただけるようになります。";
 
 /* Original: 
 $_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
 Translated: */
-$_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
+$_LANG['cPanel']['statusSuspendedNotice'] = "このプランの準備が完了次第、ご利用いただけるようになります。";
 
 
 /* Original: 
 $_LANG['cPanel']['billingOverview'] = "Billing Overview";
 Translated: */
-$_LANG['cPanel']['billingOverview'] = "Billing Overview";
+$_LANG['cPanel']['billingOverview'] = "請求概要";
 
 
 /* Original: 
@@ -8583,7 +8583,7 @@ $_LANG['orderForm']['check'] = "取得";
 /* Original: 
 $_LANG['orderForm']['returnToClientArea'] = "Return to Client Area";
 Translated: */
-$_LANG['orderForm']['returnToClientArea'] = "アカウントページに戻る";
+$_LANG['orderForm']['returnToClientArea'] = "ダッシュボードへ戻る";
 
 /* Original: 
 $_LANG['orderForm']['checkout'] = "Checkout";
@@ -8728,7 +8728,7 @@ $_LANG['orderForm']['additionalNotes'] = "Additional Notes";
 /* Original: 
 $_LANG['orderForm']['continueToClientArea'] = "Continue To Client Area";
 Translated: */
-$_LANG['orderForm']['continueToClientArea'] = "アカウントページへ移動";
+$_LANG['orderForm']['continueToClientArea'] = "ダッシュボードへ移動";
 
 /* Original: 
 $_LANG['orderForm']['reviewDomainAndAddons'] = "Please review your domain name selections and any addons that are available for them.";
@@ -9073,7 +9073,7 @@ $_LANG['verificationKeyExpired'] = '認証メールの有効期限が切れて�
 /* Original: 
 $_LANG['emailAddressVerified'] = 'Thank you for confirming your email address.';
 Translated: */
-$_LANG['emailAddressVerified'] = 'ありがとうございます。メールアドレスの認証手続きを完了しました。';
+$_LANG['emailAddressVerified'] = 'メールアドレスの認証手続きが完了しました。';
 
 /* Original: 
 $_LANG['emailKeyExpired'] = 'This email verification key has expired. Please request a new one.';
@@ -9083,12 +9083,12 @@ $_LANG['emailKeyExpired'] = '認証メールの有効期限が切れています
 /* Original: 
 $_LANG['verifyEmailAddress'] = 'Please check your email and follow the link to verify your email address.';
 Translated: */
-$_LANG['verifyEmailAddress'] = 'メールの内容に従い、メールアドレスの認証手続きを行ってください。';
+$_LANG['verifyEmailAddress'] = 'ご登録いただいたメールアドレス宛に、認証メールを送信しました。メールの内容に従い、メールアドレスの認証手続きを行ってください。';
 
 /* Original: 
 $_LANG['resendEmail'] = 'Resend Verification Email';
 Translated: */
-$_LANG['resendEmail'] = '確認メール再送';
+$_LANG['resendEmail'] = '認証メール再発行';
 
 
 // Markdown Editor Help
